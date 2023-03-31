@@ -1,0 +1,1246 @@
+Data removed: alt-title alt-title-type="right-running-head">2<
+Data removed: alt-title><alt-title alt-title-type="left-running-head">1</alt-title><subtitle>Exeter</subtitle></
+Data added: Assaf-Balut
+Data removed: Garcia de la Torre
+Data added: Carla
+Data removed: Nuria
+Data added: RDN
+Data removed: MD
+Data added: degrees>PhD</degrees><
+Data added: ,2
+Data added: carlaassafbalut90@hotmail
+Data removed: nurialobo@hotmail
+Data added: co.uk
+Data removed: com
+Data added: Garcia de la Torre
+Data removed: Duran
+Data added: Nuria
+Data removed: Alejandra
+Data added: 1,3
+Data removed: 2
+Data added: nurialobo@hotmail
+Data removed: aduranrh@hotmail
+Data added: Duran
+Data removed: Fuentes
+Data added: Alejandra
+Data removed: Manuel
+Data added: 1,2
+Data removed: 3
+Data added: aduranrh@hotmail
+Data removed: mfuentesferrer@gmail
+Data added: data-id
+Data removed: corresp
+Data removed: yes
+Data removed:  data-correspondence-order="1" data-track="ins"
+Data added: Fuentes
+Data removed: B
+Data added: Manuel
+Data removed: Nitish
+Data added: Dr
+Data removed: Mr.
+Data added: suffix
+Data added: ></
+Data added: MD
+Data removed: PhD
+Data added: xref
+Data removed: contrib-id
+Data added: ref-type
+Data removed: contrib-id-type
+Data added: aff
+Data removed: twitter
+Data added: 4
+Data removed: @Karthik
+Data added: xref
+Data removed: contrib-id
+Data added: email>mfuentesferrer@gmail.com</email></contrib><contrib
+Data removed: xref
+Data added: contrib-type
+Data removed: ref-type
+Data added: author
+Data removed: aff
+Data added:  data-track="ins"
+Data removed: 2,3,4
+Data added: name><surname>Bordiú<
+Data added: surname
+Data removed: xref
+Data added: given-names>Elena</given-names></name><degrees>PhD</degrees><
+Data added: aff
+Data removed: corresp
+Data added: 1,2,5
+Data removed: *
+Data removed: email>martin.aringer@uniklinikum-dresden.de<
+Data removed: email><on-behalf-of>Karthik</on-behalf-of></
+Data added: xref ref-type="aff">1</xref><
+Data added: xref ref-type="aff">1</xref><
+Data added: xref ref-type="aff">1</xref><
+Data added: xref ref-type="aff">1</xref><
+Data added: 6
+Data removed: 5
+Data added: 6
+Data removed: 5
+Data added: 7
+Data removed: 6
+Data added: 1,
+Data added: 1,
+Data added: aff
+Data removed: other
+Data added: 1
+Data removed: 3
+Data added: xref ref-type="aff">1</xref><
+Data added: ,3
+Data added: ,3
+Data added: 1,
+Data added: 1
+Data removed: 2
+Data added: ,3
+Data removed: data-track="ins"><collab>sabari</collab><name><surname>B</surname><given-names>Nitish</given-names></name><on-behalf-of>Karthik</on-behalf-of></contrib><contrib contrib-type="author" data-id="" 
+Data added: Bordiu
+Data removed: Assaf-Balut
+Data added: Elena
+Data removed: Carla
+Data added: Professor
+Data removed: Dr
+Data removed: degrees>RDN</degrees><degrees>PhD</degrees><
+Data added: elena
+Data removed: carlaassafbalut90@hotmail
+Data added: bordiu@salud
+Data removed: co
+Data added: madrid.org
+Data removed: uk
+Data removed: data-id="" 
+Data added: Torrejon
+Data removed: Bordiu
+Data added: María J
+Data removed: Elena
+Data removed: prefix>Professor<
+Data removed: prefix><suffix/></
+Data added: degrees
+Data removed: email
+Data added: MD
+Data removed: elena.bordiu@salud.madrid.org
+Data added: degrees
+Data removed: email
+Data added: data-id
+Data removed: data-callback
+Data removed: kriya.general.reorderLinks
+Data added: ins
+Data removed: del
+Data added: collab>New Collab - added by sabari</collab><
+Data added: B
+Data removed: Torrejon
+Data added: Nitish
+Data removed: María J
+Data added: contrib-id contrib-id-type="twitter"
+Data removed: degrees
+Data added: Test_msd007
+Data removed: MD
+Data added: contrib-id
+Data removed: degrees
+Data added: xref ref-type="other">1<
+Data added: xref></
+Data added: Exeter Group
+Data removed: Nitish
+Data removed: contrib-id contrib-id-type="twitter">Test_msd007</contrib-id><
+Data added: 1
+Data removed: 2
+Data added: 1
+Data removed: 3
+Data added: dept">Endocrinology and Nutrition Department</named-content>,<named-content content-type="
+Data added: Hospital
+Data removed: Centro
+Data added: Clínico
+Data removed: de
+Data added: San
+Data removed: Investigación
+Data added: Carlos
+Data removed: Biomédica
+Data added: and
+Data removed: en
+Data added: Instituto
+Data removed: Red
+Data added: Investigación
+Data removed: Diabetes
+Data added: Sanitaria
+Data removed: y
+Data added: del
+Data removed: Enfermedades
+Data added: Hospital
+Data removed: Metabólicas
+Data added: Clínico
+Data removed: Asociadas
+Data added: San Carlos 
+Data added: IdISSC
+Data removed: CIBERDEM
+Data removed: dept">Preventive Medicine Department</named-content>,<named-content content-type="
+Data added: Centro
+Data removed: Hospital
+Data added: de
+Data removed: Clínico
+Data added: Investigación
+Data removed: Universitario
+Data added: Biomédica
+Data removed: San
+Data added: en
+Data removed: Carlos
+Data added: Red
+Data removed: and
+Data removed: Instituto 
+Data added: Diabetes
+Data removed: Investigación
+Data added: y
+Data removed: Sanitaria
+Data added: Enfermedades
+Data removed: del
+Data added: Metabólicas
+Data removed: Hospital
+Data added: Asociadas
+Data removed: Clínico
+Data removed: San Carlos 
+Data added: CIBERDEM
+Data removed: IdISSC
+Data added: data-aff-reordered
+Data removed: data-id
+Data added: true
+Data added: data-id
+Data removed: data-track
+Data removed: ins
+Data added: dept
+Data removed: institution
+Data added: Preventive
+Data removed: University
+Data added: Medicine
+Data removed: of
+Data added: Department
+Data removed: Warwick
+Data added: institution
+Data removed: city
+Data added: Hospital
+Data removed: West
+Data added: Clínico Universitario San Carlos and Instituto de Investigación Sanitaria del Hospital Clínico San Carlos (IdISSC)
+Data removed: Midlands
+Data added: city
+Data removed: state
+Data added: Madrid
+Data removed: Coventry
+Data added: Spain
+Data removed: UK
+Data added: data-id
+Data removed: data-aff-reordered
+Data removed: true
+Data added: data-track
+Data removed: data-id
+Data added: ins
+Data added: institution
+Data removed: dept
+Data added: University
+Data removed: Gynecology
+Data added: of
+Data removed: and
+Data added: Warwick
+Data removed: Obstetrics Department
+Data added: city
+Data removed: institution
+Data added: West
+Data removed: Hospital
+Data added: Midlands
+Data removed: Clínico Universitario San Carlos and Instituto de Investigación Sanitaria del Hospital Clínico San Carlos (IdISSC)
+Data added: state
+Data removed: city
+Data added: Coventry
+Data removed: Madrid
+Data added: UK
+Data removed: Spain
+Data added: Gynecology
+Data removed: Clinical
+Data added: and
+Data removed: Laboratory
+Data added: Obstetrics 
+Data removed: data-callback="kriya.general.reorderLinks" 
+Data removed: data-track="del" 
+Data added: Clinical Laboratory Department
+Data removed: Engineering2
+Data added: Hospital Clínico Universitario San Carlos and Instituto de Investigación Sanitaria del Hospital Clínico San Carlos (IdISSC)
+Data removed: Exeter
+Data added: Madrid
+Data removed: Chennai
+Data removed: state">Tamilnadu</named-content>,<named-content content-type="
+Data added: Spain
+Data removed: India
+Data removed: contrib-group data-group="group-author" data-id=""><contrib contrib-type="author non-byline"><collab>New Collab - added by sabari</collab></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Test</surname><given-names>Exeter</given-names></name></contrib></contrib-group><contrib-group data-group="group-author" data-id=""><contrib contrib-type="author non-byline"><collab>New Collab - added by sabari</collab></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Patrick</surname><given-names>M</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Smith</surname><given-names>McCarthyDaniel</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Kislitsina</surname><given-names>Olga N.</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Pham</surname><given-names>Duc Thinh</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Ricciardi</surname><given-names>Mark J.</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Kruse</surname><given-names>Jane</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Andrei</surname><given-names>din-Chistian</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Gervais</surname><given-names>Elisabeth</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Goupille</surname><given-names>Philippe</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Mulleman</surname><given-names>Dr Denis</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Lespessailles</surname><given-names>Eric</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Martin</surname><given-names>Antoine</given-names><suffix/></name></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>Cormi</surname><given-names>Grégoire</given-names><suffix/></name></contrib></contrib-group><contrib-group data-group="group-author" data-id=""><contrib contrib-type="author non-byline"><collab>Exeter Group</collab></contrib><contrib contrib-type="group-author" data-id="" data-track="ins"><name><surname>VS</surname><given-names>Karthick</given-names></name></contrib></contrib-group><
+Data removed: fn-type="corresp" 
+Data removed: Mr.</prefix><given-names>Nitish</given-names><surname>B</surname></name>,<fn fn-type="corresp-address"><p><named-content content-type="dept">Engineering1</named-content>,<named-content content-type="institution">Exeter</named-content>,<named-content content-type="city">Chennai</named-content>,<named-content content-type="state">Tamilnadu</named-content>,<named-content content-type="country">India</named-content></p></fn>;</corresp><corresp data-id="" node-parent-insert-xpath="//front//article-meta" node-parent-insertafter-xpath="//front//contrib-group[last()]" node-parent-node="author-notes"><name data-class="jrnlAuthor"><prefix>
+Data added: noneProvenance
+Data removed: Provenance
+Data removed: none
+Data added: p>Not commissioned; externally peer reviewed.<
+Data added: p><p></p></
+Data added: nonePresented
+Data removed: Presented
+Data removed: none
+Data added: p>The main results of this secondary analysis were presented at the American Diabetes Association’s 78th Scientific Sessions, June 22-26, 2018 in Orlando, Florida.<
+Data added: p><p></p></
+Data removed: data-label="†" 
+Data added: add-data-inserted="true" 
+Data added: Supplemental material" fn-type="standard-supplemental-text" node-parent-insert-xpath="//front//article-meta" node-parent-insertafter-xpath="//front//contrib-group[last()]" node-parent-node="author-notes"><label>Supplemental material</label><p add-data-inserted="true">Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p></fn><fn data-label="
+Data added: Addendum</
+Data added: >
+Data added: p>none<
+Data added: p></fn><fn data-label="Addendum" data-track="ins" fn-type="addendum" node-parent-insert-xpath="//front//article-meta" node-parent-insertafter-xpath="//front//contrib-group[last()]" node-parent-node="author-notes"><
+Data added: label
+Data added: /label><
+Data added: 01
+Data removed: 07
+Data added: 2023
+Data removed: 2021
+Data added: 01
+Data removed: 07
+Data added: 2023
+Data removed: 2021
+Data removed: >10<
+Data removed: volume
+Data removed: >bmj<
+Data removed: issue
+Data added: e000550
+Data removed: 1234
+Data removed:  data-page-type="sissue"
+Data removed: video-abstract-url data-class="video-abstract-url" video-abstract-type="video">dashboard</video-abstract-url><
+Data removed:  data-type="ccby"
+Data added: BY-NC
+Data removed: BY
+Data added: No commercial re-use. See rights and permissions. 
+Data removed: <span data-class="xmlOnly">
+Data added: Non
+Data removed: 4.0
+Data added: Commercial
+Data removed: Unported
+Data added: BY-NC
+Data removed: BY
+Data added: distribute
+Data removed: copy
+Data added: remix
+Data removed: redistribute
+Data added: adapt
+Data removed: remix
+Data removed: transform and 
+Data added: non-commercially,
+Data removed: for
+Data added: and
+Data removed: any
+Data added: license their derivative works on different terms
+Data removed: purpose
+Data added: appropriate
+Data removed: a
+Data added: credit
+Data removed: link
+Data added: is
+Data removed: to
+Data added: given,
+Data removed: the
+Data added: any
+Data removed: licence
+Data added: changes
+Data removed: is
+Data added: made indicated
+Data removed: given
+Data added: the
+Data removed: indication
+Data added: use
+Data removed: of
+Data added: is
+Data removed: whether
+Data added: non-commercial
+Data removed: changes were made
+Data added: span
+Data removed: ext-link
+Data added: http
+Data removed: https
+Data added: by-nc
+Data removed: by
+Data added: ><a
+Data added: href
+Data removed: ext-link-type
+Data added: http://creativecommons.org/licenses/by-nc/4.0/
+Data removed: uri
+Data added:  target="_blank"
+Data added: http
+Data removed: https
+Data added: by-nc
+Data removed: by
+Data added: a
+Data removed: ext-link
+Data removed: .
+Data added: Drug and Therapeutics Bulletin
+Data removed: new
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data removed: named-content content-type="jrnlQueryRef" data-channel="query" data-class="jrnlQueryRef" data-event="click" data-message="{&#39;funcToCall&#39;: &#39;highlightQuery&#39;}" data-query-for="publisher" data-query-from="preeditor" data-query-ref="true" data-query-type="action" data-topic="action" data-type="start"/><
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data added: ><
+Data added: meta-value
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data removed: /
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data added:  data-float-id="F1" data-query-action="uncited-figure" data-remove-edit="true" data-replied="true" data-type="action"
+Data removed: /
+Data added: named-content alt="" content-type="Author"
+Data removed: /custom-meta
+Data added: span data-class="floatID hidden" data-selector="./@data-id" data-type="htmlComponent"
+Data removed: custom-meta
+Data added: BLK_F1
+Data removed: meta-value
+Data added: span
+Data added: Please provide an in-text citation for
+Data added: span data-selector=".
+Data added: /*[@class=&#39;label&#39;][1]" data-type="htmlComponent"
+Data removed: custom-meta
+Data added: Figure 1
+Data added: /span
+Data removed: custom-meta
+Data added: .
+Data removed: meta-value
+Data added: named-content
+Data added: named-content alt="" content-type="reply"
+Data removed: /custom-meta
+Data added: italic
+Data removed: custom-meta
+Data added: This figure has been cited
+Data removed: meta-value
+Data added: italic
+Data added: named-content
+Data removed: custom-meta
+Data added: /
+Data removed: custom-meta><
+Data removed: /
+Data added: meta-name
+Data removed: meta-value/
+Data added: Proof Type
+Data added: meta-name
+Data removed: custom-meta
+Data added: meta-value
+Data removed: custom-meta
+Data added: manual
+Data added: /
+Data removed: /
+Data added:  data-float-id="F3" data-query-action="uncited-figure" data-type="action"
+Data removed: /
+Data added: named-content alt="" content-type="Author"
+Data removed: /custom-meta
+Data added: span data-class="floatID hidden" data-selector="./@data-id" data-type="htmlComponent"
+Data removed: custom-meta
+Data added: BLK_F3
+Data removed: meta-value
+Data added: span
+Data added: Please provide an in-text citation for
+Data added: span data-selector=".
+Data added: /*[@class=&#39;label&#39;][1]" data-type="htmlComponent"
+Data removed: custom-meta
+Data added: Uncited Figure 1
+Data added: /span
+Data removed: custom-meta
+Data added: .
+Data removed: meta-value
+Data added: named-content
+Data removed: custom-meta><custom-meta><
+Data removed: /
+Data added:  data-type="action"
+Data removed: /
+Data added: named-content alt="" content-type="Publisher"
+Data removed: /custom-meta
+Data added: Please verify the author name is correct or not.
+Data added: p
+Data removed: custom-meta
+Data added: break
+Data removed: meta-value
+Data added: p
+Data removed: custom-meta
+Data added: p
+Data removed: custom-meta
+Data added: break
+Data removed: meta-value
+Data added: p
+Data removed: custom-meta
+Data added: /named-content
+Data removed: custom-meta
+Data added: /
+Data removed: /
+Data removed:  data-float-id="F1" data-query-action="uncited-figure" data-remove-edit="true" data-replied="true" data-type="action"
+Data removed: ><named-content alt="" content-type="Author"><span data-class="floatID hidden" data-selector=".
+Data removed: @data-id" data-type="htmlComponent"
+Data removed: BLK_F1
+Data removed: span>Please provide an in-text citation for<span data-selector=".//*[@class=&#39;label&#39;][1]" data-type="htmlComponent">Figure 1</span>.</named-content><named-content alt="" content-type="reply"><italic>This figure has been cited</italic></named-content></meta-value></
+Data removed: meta-name>Proof Type</meta-name><
+Data removed: >manual<
+Data removed: meta-value
+Data removed:  data-float-id="F3" data-query-action="uncited-figure" data-type="action"
+Data removed: ><named-content alt="" content-type="Author"><span data-class="floatID hidden" data-selector=".
+Data removed: @data-id" data-type="htmlComponent"
+Data removed: BLK_F3
+Data removed: span>Please provide an in-text citation for<span data-selector=".//*[@class=&#39;label&#39;][1]" data-type="htmlComponent">Uncited Figure 1</span>.</named-content></meta-value></
+Data removed:  data-type="action"
+Data removed: ><named-content alt="" content-type="Publisher">Please verify the author name is correct or not.<p><break
+Data removed: p><p><break/></p></named-content></meta-value></
+Data removed:  data-float-id="F6" data-query-action="uncited-figure" data-type="action"
+Data removed: ><named-content alt="" content-type="Author"><span data-class="floatID hidden" data-selector=".
+Data removed: @data-id" data-type="htmlComponent"
+Data removed: BLK_F6
+Data removed: span>Please provide an in-text citation for<span data-selector=".//*[@class=&#39;label&#39;][1]" data-type="htmlComponent">Uncited Figure 2</span>.</named-content></meta-value></
+Data removed:  data-float-id="F7" data-query-action="uncited-figure" data-type="action"
+Data removed: ><named-content alt="" content-type="Author"><span data-class="floatID hidden" data-selector=".
+Data removed: @data-id" data-type="htmlComponent"
+Data removed: BLK_F7
+Data removed: span>Please provide an in-text citation for<span data-selector=".//*[@class=&#39;label&#39;][1]" data-type="htmlComponent">Uncited Figure 3</span>.</named-content></meta-value></
+Data removed:  data-type="action"
+Data removed: ><named-content alt="" content-type="Publisher"><p>Publisher Name<
+Data removed: p
+Data removed: named-content></meta-value></
+Data removed: meta-name>Author</meta-name><
+Data removed: ><named-content>Author was changed<
+Data removed: named-content
+Data removed: meta-value></
+Data removed: meta-name>Affiliation 1</meta-name><
+Data removed: ><named-content>Affiliation 1 was changed<
+Data removed: named-content
+Data removed: meta-value></
+Data added: Presented
+Data removed: license
+Data added: at
+Data removed: type
+Data removed: CC-BY
+Data removed: /meta-value></custom-meta><custom-meta><meta-name>Supplement</meta-name><meta-value><
+Data added: Presented
+Data removed: Supplement
+Data added: at 
+Data added: Provenance
+Data removed: Addendum</meta-name><meta-value><named-content>Addendum
+Data added: and
+Data removed: was
+Data added: peer review
+Data removed: changed
+Data removed: named-content></meta-value></custom-meta><custom-meta><
+Data removed: Funding
+Data removed: /meta-name><
+Data added: Provenance
+Data removed: Funding
+Data added: and peer review 
+Data added: list list-content="ul" list-type="disc"><list-item><
+Data added: /list-item></list><
+Data added: list
+Data removed: p
+Data added: list-content
+Data removed: data-class
+Data added: ul
+Data removed: jrnlSecPara
+Data added:  list-type="disc"
+Data added: list-item><p><
+Data removed: named-content alt="" content-type="ins cts-1"><named-content alt="" content-type="del cts-1">(<
+Data removed: xref data-anchor="true" data-citation-string=" V1 " data-cite-type="delete" data-init-id="V1" data-track="del" ref-type="video">video 1<
+Data added: p
+Data removed: xref
+Data removed: named-content alt="" content-type="del cts-1">)<
+Data added: list-item
+Data removed: named-content
+Data removed: xref data-citation-string=" R1 " data-cite-type="insert" data-init-id="R1" data-track="del" ref-type="bibr"><sup>1<
+Data added: list
+Data removed: sup
+Data removed: /xref><xref data-citation-string=" R2 " data-cite-type="insert" data-init-id="R2" data-track="ins" ref-type="bibr"><sup>2</sup></xref><named-content alt="" content-type="ins cts-1">∂</named-content></named-content></named-content></p><
+Data removed: data-stream-name="a_BWL2" 
+Data added: hyp<named-content
+Data removed: hyperglycaemia
+Data added: alt="" content-type="ins cts-1">∂</named-content>erglycaemia 
+Data added: <xref
+Data added: data-anchor="true"
+Data removed: negative
+Data added: data-citation-string="
+Data removed: pregnancy
+Data added: F4
+Data removed: outcomes,
+Data added: "
+Data removed: GDM
+Data added: data-cite-type="insert"
+Data removed: is
+Data added: data-init-id="F4"
+Data removed: an
+Data added: data-track="del"
+Data removed: important
+Data added: ref-type
+Data removed: p</p><p data-class
+Data added: fig
+Data removed: jrnlSecPara
+Data added: ins
+Data removed: del
+Data removed: ublic<named-content alt="" content-type="ins cts-1">(<xref data-anchor="true" data-citation-string=" F5 " data-cite-type="insert" data-init-id="F5" ref-type="fig">
+Data added: 4
+Data removed: 5
+Data removed: )
+Data removed: /named-content><
+Data added: F5
+Data removed: "
+Data removed: data-cite-type=
+Data removed: insert"
+Data added: ,F5
+Data added: figures
+Data removed: figure
+Data added:  and 5
+Data added: negative pregnancy outcomes, GDM is an important public 
+Data added: a_F4
+Data removed: a_F5
+Data added: 4
+Data removed: 5
+Data added: BLK_F5&quot
+Data removed: BLK_F4&quot
+Data added: data-new-float
+Data removed: data-stream-name
+Data added: true&quot
+Data removed: a_F4&quot
+Data added: data-stream-name
+Data removed: data-new-float
+Data added: a_F5&quot
+Data removed: true&quot
+Data added: 5&lt
+Data removed: 4&lt
+Data added: F5&quot
+Data removed: F4&quot
+Data added:  
+Data added:  
+Data added: contenteditable="true" 
+Data removed: ><named-content alt="" content-type="ins cts-1">Testing with general footnote<
+Data removed: named-content
+Data removed: p></
+Data removed: ><named-content alt="" content-type="ins cts-1">Testing with general footnote mark as<
+Data removed: named-content
+Data removed: p></
+Data removed: data-id="" data-track="del" fn-type="linked-fn"><label data-class="jrnlFNLabel">*</label><p><named-content alt="" content-type="ins cts-1">hello</named-content></p></fn><fn data-class="jrnlTblFoot" 
+Data removed: <named-content alt="" content-type="del cts-1">
+Data removed: named-content><span data-class="cts-1" data-track="del">figure 2A,B</span><named-content alt="" content-type="ins cts-1">figure 2A</named-content></
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added: /
+Data added: /caption&gt
+Data removed: named-content data-class=&quot
+Data added: &lt
+Data removed: jrnlQueryRef&quot
+Data added: graphic
+Data added: data-primary-extension
+Data removed: data-query-ref
+Data added: jpeg&quot
+Data removed: true&quot
+Data added: data-original-name
+Data removed: data-type
+Data added: profile&quot
+Data removed: start&quot
+Data added: data-filesize
+Data removed: data-query-for
+Data added: 5050B&quot
+Data removed: author&quot
+Data added: data-colorspace
+Data removed: data-channel
+Data added: sRGB&quot
+Data removed: query&quot
+Data added: data-geometry
+Data removed: data-topic
+Data added: 222x227+0+0&quot
+Data removed: action&quot
+Data added: /&gt
+Data removed:  data-event=&quot
+Data added: &lt
+Data removed: click&quot
+Data added: fn
+Data added: data-class
+Data removed: data-message
+Data added: jrnlFigFoot&quot
+Data removed: {&#39
+Data added: &gt
+Data removed: funcToCall&#39
+Data added: &lt
+Data removed: : &#39
+Data added: p&gt
+Data removed: highlightQuery&#39
+Data added: none&lt
+Data removed: }&quot
+Data added: /p&gt
+Data removed:  data-query-action=&quot
+Data added: &lt
+Data removed: uncited-figure&quot
+Data added: /fn&gt
+Data removed:  content-type=&quot
+Data added: &lt
+Data removed: jrnlQueryRef&quot
+Data added: fig&gt
+Data removed: &gt
+Data added: &lt;
+Data removed: </title></caption><graphic data-colorspace="sRGB" data-filesize="5050B" data-geometry="222x227+0+0" data-original-name="profile" data-primary-extension="jpeg"/><fn data-class="jrnlFigFoot"><p>none</p></fn></
+Data removed: ><fig
+Data added: &quot;BLK_F7&quot;
+Data removed: ""
+Data added: &quot;true&quot;
+Data removed: "true"
+Data added: &quot;a_F7&quot;
+Data removed: "a_F7"
+Data added: &quot;true&quot;
+Data removed: "true"
+Data added: position
+Data removed: fig-type
+Data added: &quot;float&quot;
+Data removed: "figure"
+Data added: fig-type
+Data removed: position
+Data added: &quot;figure&quot;&gt;&lt;label&gt;
+Data removed: "float"><label>
+Data added: 3&lt;
+Data removed: 3<
+Data added: label&gt;&lt;caption&gt;&lt;
+Data removed: label><caption><
+Data added: &quot;F7&quot;/&gt;
+Data removed: "">
+Data added: /caption&gt
+Data removed: named-content data-class=&quot
+Data added: &lt
+Data removed: jrnlQueryRef&quot
+Data added: graphic
+Data added: data-primary-extension
+Data removed: data-query-ref
+Data added: jpeg&quot
+Data removed: true&quot
+Data added: data-original-name
+Data removed: data-type
+Data added: profile&quot
+Data removed: start&quot
+Data added: data-filesize
+Data removed: data-query-for
+Data added: 5050B&quot
+Data removed: author&quot
+Data added: data-colorspace
+Data removed: data-channel
+Data added: sRGB&quot
+Data removed: query&quot
+Data added: data-geometry
+Data removed: data-topic
+Data added: 222x227+0+0&quot
+Data removed: action&quot
+Data added: /&gt
+Data removed:  data-event=&quot
+Data added: &lt
+Data removed: click&quot
+Data added: fn
+Data added: data-class
+Data removed: data-message
+Data added: jrnlFigFoot&quot
+Data removed: {&#39
+Data added: &gt
+Data removed: funcToCall&#39
+Data added: &lt
+Data removed: : &#39
+Data added: p&gt
+Data removed: highlightQuery&#39
+Data added: none&lt
+Data removed: }&quot
+Data added: /p&gt;&lt;/fn&gt;&lt;/fig&gt;&lt;fig
+Data added: data-id
+Data removed: data-query-action
+Data added: BLK_FWL8&quot
+Data removed: uncited-figure&quot
+Data added: data-stream-name
+Data removed: content-type
+Data added: a_FWL8&quot
+Data removed: jrnlQueryRef&quot
+Data removed: /&gt;</title></caption><graphic
+Data added: data-remove-label
+Data removed: data-colorspace
+Data added: &quot;true&quot;
+Data removed: "sRGB"
+Data added: data-inline
+Data removed: data-filesize
+Data added: &quot;true&quot;
+Data removed: "5050B"
+Data added: data-track
+Data removed: data-geometry
+Data added: &quot;del&quot;
+Data removed: "222x227+0+0"
+Data removed: data-original-name="profile" data-primary-extension="jpeg"/><fn data-class="jrnlFigFoot"><p>none</p></fn></fig><fig 
+Data added: &quot;
+Data removed: "
+Data added: reCallFloat&quot;
+Data removed: reCallFloat"
+Data removed: data-id="" data-inline="true" data-remove-label="true" data-stream-name="a_FWL8" data-track="del" 
+Data added: &quot;
+Data removed: "
+Data added: &quot;
+Data removed: "
+Data added: position
+Data removed: fig-type
+Data added: &quot;float&quot;
+Data removed: "figure"
+Data added: fig-type
+Data removed: position
+Data added: &quot;figure&quot;&gt;&lt;caption&gt;&lt;
+Data removed: "float"><caption><
+Data added: &quot;FWL8&quot;&gt;
+Data removed: "">
+Data removed:  data-primary-extension=""
+Data removed: data-callback="kriya.general.reCallFloat" 
+Data added: data-uncited
+Data removed: data-track
+Data added: true
+Data removed: del
+Data removed: data-track-detail="The float object V1 was deleted." 
+Data added: Uncited 
+Data added:  
+Data added:  
+Data removed: &lt;fn-group
+Data removed: direct-node=&quot;true&quot; data-class=&quot;jrnlFootNoteGroup&quot;&gt;
+Data added: ref-list&gt
+Data removed: fn fn-type=&quot
+Data removed: fn&quot;
+Data removed: node-insert-xpath=&quot;//back//fn-group&quot; data-class=&quot;jrnlFootNote&quot; data-id=&quot;BFN1&quot;&gt;
+Data removed: p&gt;Sabari&lt;/p&gt;&lt;/fn&gt;&lt;/fn-group&gt;&lt;ref-list&gt;&lt;
+Data added: x></x><x></x><
+Data added: 1,2&lt
+Data removed: 1&lt
+Data added:  
+Data added: data-new-float
+Data removed: data-stream-name
+Data added: true&quot
+Data removed: a_SF1&quot
+Data added: data-type
+Data removed: data-new-float
+Data added: undefined&quot
+Data removed: true&quot
+Data added: data-stream-name
+Data removed: data-type
+Data added: a_SF3&quot
+Data removed: undefined&quot
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+Data added:  
+
+------------------------------------------------------------
