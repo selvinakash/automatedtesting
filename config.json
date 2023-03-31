@@ -1,0 +1,10 @@
+{
+    "server": "https://testing.kriyadocs.com",
+    "apikey": "36ab61a9-47e1-4db6-96db-8b95a9923599",
+    "notAuthorized": {
+        "status": {
+            "code": 401,
+            "message": "Not authorized. You have not provided credentials to access the requested resource"
+        }
+    }
+}
