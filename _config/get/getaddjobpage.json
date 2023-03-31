@@ -1,0 +1,36 @@
+[{
+        "message": "Return error when E-mail id is not given",
+        "status": "200",
+        "url": "/api/getaddjobpage/?apiKey={APIKEY}",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "ERROR: Email ID is not provided."
+            }
+        },
+        "method": "get"
+    }, {
+        "message": "Return error when authorName is not given",
+        "status": "200",
+        "url": "/api/getaddjobpage/?apiKey={APIKEY}&emailID=bmj",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "ERROR: Author Name is not provided."
+            }
+        },
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when authenticaion not given",
+        "status": "401",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "url": "/api/getaddjobpage",
+        "method": "get"
+    }
+]

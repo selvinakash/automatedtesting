@@ -1,0 +1,24 @@
+[        
+    {
+        "message": "Return error if we not passed exact parametes like customer, project and doi",        
+        "status" : "200",
+        "url" : "/api/structurecontent?apiKey={APIKEY}",
+        "data" :{
+            "project" : "ijgc",
+            "doi" : "ijgc-2018-000124"
+        },
+        "expectedOutput" : "\nhttps://testing.kriyadocs.com/resources/integration//ijgc/ijgc-2018-000124/resources/file_list.xml?method=server\n Organising manuscript...Structuring content completed\n<response><status></status><content></content></response>",
+        "method" : "post"
+    },
+    {
+        "message": "Return data if we pass all the required parameters",        
+        "status" : "200",
+        "url" : "/api/structurecontent?apiKey={APIKEY}",
+        "data" :{
+            "customer" : "bmj",
+            "project" : "ijgc",
+            "doi" : "ijgc-2018-000124"
+        },
+        "method" : "post"
+    }   
+] 

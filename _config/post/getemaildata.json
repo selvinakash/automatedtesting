@@ -1,0 +1,43 @@
+[{
+    "message": "get email data for bmj customer on Sep 11",
+    "status": "200",
+    "url": "/api/getemaildata?apiKey={APIKEY}",
+    "param": {
+        "parameters": [{
+            "name": "hits",
+            "type": "object"
+        }]
+    },
+    "data": {
+        "customer": "bmj",
+        "from": "2022-09-11",
+        "to": "2022-09-11",
+        "subject": "*",
+        "fromSize": 10,
+        "size": 5
+    },
+    "method": "post"
+}, {
+    "message": "Return error when customer name is not provided",
+    "status": "200",
+    "url": "/api/getemaildata?apiKey={APIKEY}",
+    "data": {
+        "from": "2019-09-11",
+        "to": "2019-09-11",
+        "subject": "*"
+    },
+    "expectedOutput": "Customer is empty",
+    "method": "post"
+}, {
+    "message": "Return error when customer name is empty",
+    "status": "200",
+    "url": "/api/getemaildata?apiKey={APIKEY}",
+    "data": {
+        "customer": "",
+        "from": "2019-09-11",
+        "to": "2019-09-11",
+        "subject": "*"
+    },
+    "expectedOutput": "Customer is empty",
+    "method": "post"
+}]

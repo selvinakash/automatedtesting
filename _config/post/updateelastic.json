@@ -1,0 +1,91 @@
+[{
+        "message": "Return success message if we pass all the required parameters",
+        "status": "200",
+        "url": "/api/updateelastic",
+        "data": {
+            "customer": "bmj",
+            "project": "vetrec",
+            "doi": "vetrec-2018-105261",
+            "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+        },
+        "param": {
+            "key": "content",
+            "parameters": [{
+                "name": "statusCode",
+                "type": "Number"
+            }, {
+                "name": "body",
+                "type": "object"
+            }, {
+                "name": "headers",
+                "type": "object"
+            }, {
+                "name": "request",
+                "type": "object"
+            }]
+        },
+        "method": "post"
+    },{
+        "message": "Return success message if we pass all the required parameters and date format is wrong(Get article is changed)",
+        "status": "200",
+        "url": "/api/updateelastic",
+        "data": {
+            "customer": "bmj",
+            "project": "thoraxjnl",
+            "doi": "thoraxjnl-2018-211548",
+            "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+        },
+        "param": {
+            "key": "content",
+            "parameters": [{
+                "name": "statusCode",
+                "type": "Number"
+            }, {
+                "name": "body",
+                "type": "object"
+            }, {
+                "name": "headers",
+                "type": "object"
+            }, {
+                "name": "request",
+                "type": "object"
+            }]
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error if file is not found in DB",
+        "status": "400",
+        "url": "/api/updateelastic",
+        "data": {
+            "customer": "bmj",
+            "project": "bjo",
+            "doi": "bjophthalmol-2018-3711test",
+            "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 404,
+                "message": "Internal error"
+            },
+            "message": "Requested file does not exists"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return Error if we not passed the exact parameters",
+        "status": "400",
+        "url": "/api/updateelastic",
+        "data": {
+            "project": "bjo",
+            "doi": "bjophthalmol-2018-313711",
+            "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "message": "Missing parameters"
+        },
+        "method": "post"
+    }
+    
+]

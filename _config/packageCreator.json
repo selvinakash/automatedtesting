@@ -1,0 +1,14 @@
+[
+    {
+        "method" : "get",
+        "url" : "/api/packagecreator?apiKey={APIKEY}",
+        "message" : "when user have login credentials",
+        "status" : "200"
+    },
+    {
+        "method" : "get",
+        "url" : "/api/packagecreator",
+        "message" : "when user don't have login credentials",
+        "status" : "401"
+    }
+]

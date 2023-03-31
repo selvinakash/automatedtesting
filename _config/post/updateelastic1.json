@@ -1,0 +1,210 @@
+[{
+    "message": "HUG1014680",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "sage",
+        "project": "hug",
+        "doi": "HUG1014680",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "thoraxjnl-2020-216586",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "thoraxjnl",
+        "doi": "thoraxjnl-2020-216586",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bmjqs-2020-012367",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjqs",
+        "doi": "bmjqs-2020-012367",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "ijm.00229",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "ima",
+        "project": "ijm",
+        "doi": "ijm.00229",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "medhum-2020-012069",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "medhum",
+        "doi": "medhum-2020-012069",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "neurintsurg-2020-017201ret",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "neurintsurg",
+        "doi": "neurintsurg-2020-017201ret",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "IJSEM-D-21-00242",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "mbs",
+        "project": "ijsem",
+        "doi": "IJSEM-D-21-00242",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bmjgast-2021-000625",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjgast",
+        "doi": "bmjgast-2021-000625",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "ETP1011945",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "sage",
+        "project": "etp",
+        "doi": "ETP1011945",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bmjebm-2021-111695",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjebm",
+        "doi": "bmjebm-2021-111695",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "jitc-2020-002127",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "jitc",
+        "doi": "jitc-2020-002127",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bmjopen-2020-043719",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjopen",
+        "doi": "bmjopen-2020-043719",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "BJR-2020-0275.R2",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bjp",
+        "project": "bjr",
+        "doi": "BJR-2020-0275.R2",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bcr-2021-241745",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bcr",
+        "doi": "bcr-2021-241745",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "59697",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "elife",
+        "project": "elife",
+        "doi": "59697",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "neurintsurg-2020-016953",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "neurintsurg",
+        "doi": "neurintsurg-2020-016953",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "leader-2021-000472",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "leader",
+        "doi": "leader-2021-000472",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bcr-2020-241282",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bcr",
+        "doi": "bcr-2020-241282",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}, {
+    "message": "bcr-2020-241485",
+    "status": "200",
+    "url": "/api/updateelastic",
+    "data": {
+        "customer": "bmj",
+        "project": "bcr",
+        "doi": "bcr-2020-241485",
+        "apiKey": "36ab61a9-47e1-4db6-96db-8b95a9923599"
+    },
+    "method": "post"
+}]

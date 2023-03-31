@@ -1,0 +1,219 @@
+[{
+
+        "message": "Assign to the reviewer",
+        "status": "200",
+        "url": "/api/signoff/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "project": "epoj",
+            "doi": "epoj-2022-sssss",
+            "role": "reviewer",
+            "currStage": "assignToReviewer",
+            "to": "reviewer4@exeter.com",
+            "recipientName": "Reviewer 4",
+            "stagename": "Reviewer Check",
+            "version": "R1",
+            "skipAssignTo": true,
+            "emailBody": "<p>Dear Reviewer 4, </p><p>I would like to request that you review the manuscript titled <span class='article-title'>Test article</span> which has been submitted for consideration for publication in <span class='journal-title'>Engineering Project Organization Journal</span>.</p><p>The abstract of the article appears below. If you are willing to review this manuscript, please click on the corresponding link below the abstract.</p><p style='font-size: 25px !important;color: #025d86 !important;'><span class='h1'>An evaluation of The applicability of 4D CAD in the Indian CONSTRUCTION Context</span></p><p><b>Abstract</b><br><br><span class='p'>4D CAD models that integrate physical 3D elements with time, have been used to visualize construction processes in several projects worldwide. 4D models have been used and have been shown to have benefits over processes that span the entire lifecycle of a project such as collaboration with stakeholders, making design decisions, assessing project constructability, identifying spatial conflicts in construction and so on. However there are no studies that systematically attempt to evaluate the applicability of 4D CAD in the Indian construction industry – a gap that this paper attempts to fill. This paper describes two 4D models of infrastructure projects and two 4D models of commercial projects that have been built and implemented. Through a process of structured and unstructured interviewing the paper gauges the response of project participants across various organizational levels on each of these projects as to the usefulness of 4D in project planning and control. Through qualitative and statistical analysis of the data we establish that 4D CAD is likely to be most beneficial in the project shaping or planning stage and in the construction stage. In the project shaping stage, 4D CAD is likely to be particularly useful in communicating construction plans and processes to clients, while during the construction phase, 4D CAD is likely to be particularly useful in comparing the constructability of work methods visually in order to detect conflicts or clashes, and as a visual tool for contractors, clients, subcontractors and vendors to review and plan project progress. Further, upper management and site workers are more likely to use and derive benefits from the visualization of processes using 4D given their lack of site related knowledge or skills, while construction professionals who are more construction-savvy are more likely to appreciate and benefit from the analytical and planning aids that 4D simulations provide during the construction phase. However, as international experience indicates, it is likely that despite these benefits 4D CAD models might not diffuse into the Indian construction industry unless 4D modeling and analysis is integrated into existing project planning approaches. The paper concludes with a discussion of a “4D Information System” or 4DIS that seeks to bring about such an integration and leverage the benefits of 4D CAD to bring about improved operational efficiencies on Indian construction sites.</span></p><p contenteditable='false' style='background-color: lightgray;padding: 5px;'>If you agree to review the article click <a contenteditable='false' style='background: #FF5722;padding: 3px 6px;border-radius: 3px;color: #fff !important;' data-link-page='peer_review' href='{acceptLink}'>Agree to review</a>.</p><p contenteditable='false' style='background-color: lightgray;padding: 5px;'>If you are unable to review the article click <a contenteditable='false' style='background: #FF5722;padding: 3px 6px;border-radius: 3px;color: #fff !important;' href='{rejectLink}'>Decline to review</a>.</p><p>Please note, the online editing system is currently not supported using Internet Explorer. Please review your proofs using either <a contenteditable='false' href='https'://www.google.com/chrome/'>Google Chrome</a>.</p><p>Regards</p><p>Editorial Team</p><p><span class='journal-title'>Engineering Project Organization Journal</span></p>",
+            "editedTo": "reviewer4@exeter.com",
+            "subject": "EPOJ: Request to review manuscript"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "data received"
+            }
+        },
+        "method": "post"
+    }, {
+        "message": "Update reviewer - Rejected to Review",
+        "status": "200",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-2022-sssss",
+            "project": "epoj",
+            "userMailID": "reviewer4@exeter.com",
+            "reviewerStatus": "rejected",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "Reviewer updated."
+            },
+            "step": "updateReviewer"
+        },
+        "method": "post"
+    }, {
+
+        "message": "Send the error message when email id is not provided",
+        "status": "400",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-2022-sssss",
+            "project": "epoj",
+            "reviewerStatus": "rejected",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "Email address not provided. Unexpected input"
+            },
+            "step": "updatereviewer"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Send the error message when reviewer status is not provided",
+        "status": "400",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-2022-sssss",
+            "project": "epoj",
+            "userMailID": "reviewer4@exeter.com",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "Reviewer status not provided. Unexpected input"
+            },
+            "step": "updatereviewer"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Send the error message when article key not found in the workflow",
+        "status": "400",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-2022-sssss",
+            "project": "epoj",
+            "userMailID": "reviewer4@exeter.com",
+            "reviewerStatus": "rejected",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "Article key not found in workflow"
+            },
+            "step": "update-article-key"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Send the error message when editor not found in the xml",
+        "status": "400",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-2022-sssss",
+            "project": "epoj",
+            "updateEditor": "true",
+            "userMailID": "reviewer4@exeter.com",
+            "reviewerStatus": "rejected",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "Editor not found in xml"
+            },
+            "step": "update-editor"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Send the error message when Inprogress Stage not found in workflow",
+        "status": "400",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-2022-sssss",
+            "project": "epoj",
+            "updateEditor": true,
+            "userMailID": "reviewer4@exeter.com",
+            "reviewerStatus": "rejected",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "Inprogress Stage not found in workflow"
+            },
+            "step": "update-article-key"
+        },
+        "method": "post"
+    }, {
+        "message": "Send the error message when Editors group not found in xml",
+        "status": "400",
+        "url": "/api/updatereviewer/?apiKey={APIKEY}",
+        "data": {
+            "customer": "epos",
+            "doi": "epoj-204488",
+            "project": "epoj",
+            "updateEditor": "true",
+            "userMailID": "reviewer4@exeter.com",
+            "reviewerStatus": "rejected",
+            "reviewerMessage": "Rejected to Review",
+            "version": "R1",
+            "updateUserXML": {
+                "userMailID": "reviewer4@exeter.com",
+                "customer": "epos",
+
+                "doi": "epoj-2022-sssss"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "Editors group not found in xml"
+            },
+            "step": "update-editor"
+        },
+        "method": "post"
+    }
+]

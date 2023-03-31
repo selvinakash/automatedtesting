@@ -1,0 +1,79 @@
+[{
+        "url": "/api/getrefcomponent/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&type=getCitation",
+        "status": "200",
+        "message": "Reference Citation format is getting or not when authentication is given",
+        "method": "get",
+        "param": {
+            "key": "citation",
+            "parameters": [{
+                    "name": "data-trigger-stage",
+                    "type": "string"
+                }, {
+                    "name": "includeFloatCitationsAfterBody",
+                    "type": "string",
+                    "value": "true"
+                },
+                {
+                    "name": "jrnlBibRef",
+                    "type": "object"
+                },
+                {
+                    "name": "jrnlFigRef",
+                    "type": "object"
+                },
+                {
+                    "name": "jrnlSupplRef",
+                    "type": "array"
+                },
+                {
+                    "name": "jrnlTblRef",
+                    "type": "object"
+                },
+                {
+                    "name": "jrnlVidRef",
+                    "type": "object"
+                }
+            ]
+        }
+    },
+    {
+        "url": "/api/getrefcomponent/?&customer=bmj&project=bjophthalmol&type=getCitation",
+        "status": "401",
+        "message": "Reference Citation format is getting or not when authentication is not given",
+        "method": "get",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        }
+    },
+    {
+        "url": "/api/getrefcomponent/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&type=modal",
+        "status": "200",
+        "message": "Reference modal is getting or not when authentication is given",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getrefcomponent/referencemodalforbjo.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getrefcomponent/actual/referencemodalforbjo.html"
+    },
+    {
+        "url": "/api/getrefcomponent/?customer=bmj&project=bjophthalmol&type=modal",
+        "status": "401",
+        "message": "Reference modal is getting or not when authentication is not given",
+        "method": "get",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        }        
+    },
+    {
+        "url": "/api/getrefcomponent/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&type=stylus",
+        "status": "200",
+        "message": "Reference modal is getting or not when authentication is given",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getrefcomponent/referencemodalstylus.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getrefcomponent/actual/referencemodalstylus.html"
+    }
+]

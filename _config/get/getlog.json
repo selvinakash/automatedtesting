@@ -1,0 +1,27 @@
+[{
+        "message": "Return log for annrheumdis-2019-215886",
+        "status": "200",
+        "url": "/api/getlog/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2019-215886",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getlog/annrheumdis-2019-215886.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getlog/actual/annrheumdis-2019-215886.html",
+        "method": "get"
+    }, {
+        "message": "Return error when file is not there in DB",
+        "status": "200",
+        "url": "/api/getlog/?apiKey={APIKEY}&customer=bmj&project=annrheumdis",
+        "expectedOutput": "Error : File not found",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when authenticaion not given",
+        "status": "401",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "url": "/api/getlog",
+        "method": "get"
+    }
+]

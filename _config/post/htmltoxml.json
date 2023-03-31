@@ -1,0 +1,743 @@
+[{
+    "message": "Transfrom annrheumdis-2019-215164",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215164",
+        "content": "/_testFiles/inputfiles/htmltoxml/annrheumdis-2019-215164.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/annrheumdis-2019-215164.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/annrheumdis-2019-215164.html",
+    "method": "post"
+}, {
+    "message": "Transfrom annrheumdis-2019-215543",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215543",
+        "content": "/_testFiles/inputfiles/htmltoxml/annrheumdis-2019-215543.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/annrheumdis-2019-215543.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/annrheumdis-2019-215543.html",
+    "method": "post"
+}, {
+    "message": "Transfrom annrheumdis-2019-215672",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215672",
+        "content": "/_testFiles/inputfiles/htmltoxml/annrheumdis-2019-215672.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/annrheumdis-2019-215672.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/annrheumdis-2019-215672.html",
+    "method": "post"
+}, {
+    "message": "Transfrom annrheumdis-2019-215742",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215742",
+        "content": "/_testFiles/inputfiles/htmltoxml/annrheumdis-2019-215742.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/annrheumdis-2019-215742.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/annrheumdis-2019-215742.html",
+    "method": "post"
+}, {
+    "message": "Transfrom annrheumdis-2019-215881",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215881",
+        "content": "/_testFiles/inputfiles/htmltoxml/annrheumdis-2019-215881.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/annrheumdis-2019-215881.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/annrheumdis-2019-215881.html",
+    "method": "post"
+}, {
+    "message": "Transfrom annrheumdis-2019-215903",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215903",
+        "content": "/_testFiles/inputfiles/htmltoxml/annrheumdis-2019-215903.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/annrheumdis-2019-215903.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/annrheumdis-2019-215903.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314021",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314021",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314021.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314021.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314021.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314127",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314127",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314127.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314127.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314127.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314293",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314293",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314293.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314293.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314293.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314370",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314370",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314370.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314370.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314370.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314429",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314429",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314429.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314429.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314429.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314461",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314461",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314461.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314461.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314461.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjophthalmol-2019-314567",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314567",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjophthalmol-2019-314567.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjophthalmol-2019-314567.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjophthalmol-2019-314567.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjsports-2019-100949",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjsports",
+        "doi": "bjsports-2019-100949",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjsports-2019-100949.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjsports-2019-100949.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjsports-2019-100949.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bjsports-2019-101087",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bjsports",
+        "doi": "bjsports-2019-101087",
+        "content": "/_testFiles/inputfiles/htmltoxml/bjsports-2019-101087.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bjsports-2019-101087.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bjsports-2019-101087.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjdrc-2019-000654",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjdrc",
+        "doi": "bmjdrc-2019-000654",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjdrc-2019-000654.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjdrc-2019-000654.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjdrc-2019-000654.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjgh-2019-001552",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001552",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjgh-2019-001552.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjgh-2019-001552.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjgh-2019-001552.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjgh-2019-001709",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001709",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjgh-2019-001709.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjgh-2019-001709.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjgh-2019-001709.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjopen-2018-028177",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028177",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjopen-2018-028177.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjopen-2018-028177.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjopen-2018-028177.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjopen-2018-028699",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028699",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjopen-2018-028699.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjopen-2018-028699.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjopen-2018-028699.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjopen-2019-028981",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-028981",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjopen-2019-028981.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjopen-2019-028981.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjopen-2019-028981.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjopen-2019-029487",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-029487",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjopen-2019-029487.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjopen-2019-029487.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjopen-2019-029487.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjopen-2019-029638",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-029638",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjopen-2019-029638.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjopen-2019-029638.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjopen-2019-029638.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjophth-2018-000202",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjophth",
+        "doi": "bmjophth-2018-000202",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjophth-2018-000202.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjophth-2018-000202.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjophth-2018-000202.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjoq-2019-000710",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjoq",
+        "doi": "bmjoq-2019-000710",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjoq-2019-000710.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjoq-2019-000710.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjoq-2019-000710.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjpo-2019-000443",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjpo",
+        "doi": "bmjpo-2019-000443",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjpo-2019-000443.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjpo-2019-000443.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjpo-2019-000443.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjpo-2019-000491",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjpo",
+        "doi": "bmjpo-2019-000491",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjpo-2019-000491.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjpo-2019-000491.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjpo-2019-000491.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjpo-2019-000526",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjpo",
+        "doi": "bmjpo-2019-000526",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjpo-2019-000526.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjpo-2019-000526.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjpo-2019-000526.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjsem-2019-000567",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjsem",
+        "doi": "bmjsem-2019-000567",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjsem-2019-000567.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjsem-2019-000567.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjsem-2019-000567.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjspcare-2018-001747",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjspcare",
+        "doi": "bmjspcare-2018-001747",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjspcare-2018-001747.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjspcare-2018-001747.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjspcare-2018-001747.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjspcare-2019-001766",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjspcare",
+        "doi": "bmjspcare-2019-001766",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjspcare-2019-001766.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjspcare-2019-001766.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjspcare-2019-001766.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjspcare-2019-001820",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjspcare",
+        "doi": "bmjspcare-2019-001820",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjspcare-2019-001820.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjspcare-2019-001820.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjspcare-2019-001820.html",
+    "method": "post"
+}, {
+    "message": "Transfrom bmjspcare-2019-001834",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "bmjspcare",
+        "doi": "bmjspcare-2019-001834",
+        "content": "/_testFiles/inputfiles/htmltoxml/bmjspcare-2019-001834.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/bmjspcare-2019-001834.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/bmjspcare-2019-001834.html",
+    "method": "post"
+}, {
+    "message": "Transfrom DTB-2019-000008",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "dtb",
+        "doi": "DTB-2019-000008",
+        "content": "/_testFiles/inputfiles/htmltoxml/DTB-2019-000008.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/DTB-2019-000008.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/DTB-2019-000008.html",
+    "method": "post"
+}, {
+    "message": "Transfrom DTB-2019-000024",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "dtb",
+        "doi": "DTB-2019-000024",
+        "content": "/_testFiles/inputfiles/htmltoxml/DTB-2019-000024.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/DTB-2019-000024.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/DTB-2019-000024.html",
+    "method": "post"
+}, {
+    "message": "Transfrom ejhpharm-2019-001873",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "ejhpharm",
+        "doi": "ejhpharm-2019-001873",
+        "content": "/_testFiles/inputfiles/htmltoxml/ejhpharm-2019-001873.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/ejhpharm-2019-001873.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/ejhpharm-2019-001873.html",
+    "method": "post"
+}, {
+    "message": "Transfrom ejhpharm-2019-001988",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "ejhpharm",
+        "doi": "ejhpharm-2019-001988",
+        "content": "/_testFiles/inputfiles/htmltoxml/ejhpharm-2019-001988.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/ejhpharm-2019-001988.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/ejhpharm-2019-001988.html",
+    "method": "post"
+}, {
+    "message": "Transfrom esmoopen-2019-000524",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "esmoopen",
+        "doi": "esmoopen-2019-000524",
+        "content": "/_testFiles/inputfiles/htmltoxml/esmoopen-2019-000524.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/esmoopen-2019-000524.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/esmoopen-2019-000524.html",
+    "method": "post"
+}, {
+    "message": "Transfrom gpsych-2019-100062",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "gpsych",
+        "doi": "gpsych-2019-100062",
+        "content": "/_testFiles/inputfiles/htmltoxml/gpsych-2019-100062.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/gpsych-2019-100062.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/gpsych-2019-100062.html",
+    "method": "post"
+}, {
+    "message": "Transfrom gpsych-2019-100066",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "gpsych",
+        "doi": "gpsych-2019-100066",
+        "content": "/_testFiles/inputfiles/htmltoxml/gpsych-2019-100066.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/gpsych-2019-100066.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/gpsych-2019-100066.html",
+    "method": "post"
+}, {
+    "message": "Transfrom gpsych-2019-100072",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "gpsych",
+        "doi": "gpsych-2019-100072",
+        "content": "/_testFiles/inputfiles/htmltoxml/gpsych-2019-100072.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/gpsych-2019-100072.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/gpsych-2019-100072.html",
+    "method": "post"
+}, {
+    "message": "Transfrom heartjnl-2019-315684",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "heartjnl",
+        "doi": "heartjnl-2019-315684",
+        "content": "/_testFiles/inputfiles/htmltoxml/heartjnl-2019-315684.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/heartjnl-2019-315684.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/heartjnl-2019-315684.html",
+    "method": "post"
+}, {
+    "message": "Transfrom ijgc-2019-000750",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "ijgc",
+        "doi": "ijgc-2019-000750",
+        "content": "/_testFiles/inputfiles/htmltoxml/ijgc-2019-000750.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/ijgc-2019-000750.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/ijgc-2019-000750.html",
+    "method": "post"
+}, {
+    "message": "Transfrom injuryprev-2019-043134",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "injuryprev",
+        "doi": "injuryprev-2019-043134",
+        "content": "/_testFiles/inputfiles/htmltoxml/injuryprev-2019-043134.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/injuryprev-2019-043134.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/injuryprev-2019-043134.html",
+    "method": "post"
+}, {
+    "message": "Transfrom injuryprev-2019-043262",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "injuryprev",
+        "doi": "injuryprev-2019-043262",
+        "content": "/_testFiles/inputfiles/htmltoxml/injuryprev-2019-043262.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/injuryprev-2019-043262.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/injuryprev-2019-043262.html",
+    "method": "post"
+}, {
+    "message": "Transfrom injuryprev-2019-043305",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "injuryprev",
+        "doi": "injuryprev-2019-043305",
+        "content": "/_testFiles/inputfiles/htmltoxml/injuryprev-2019-043305.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/injuryprev-2019-043305.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/injuryprev-2019-043305.html",
+    "method": "post"
+}, {
+    "message": "Transfrom jclinpath-2019-205764",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "jclinpath",
+        "doi": "jclinpath-2019-205764",
+        "content": "/_testFiles/inputfiles/htmltoxml/jclinpath-2019-205764.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/jclinpath-2019-205764.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/jclinpath-2019-205764.html",
+    "method": "post"
+}, {
+    "message": "Transfrom jech-2018-211794",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "jech",
+        "doi": "jech-2018-211794",
+        "content": "/_testFiles/inputfiles/htmltoxml/jech-2018-211794.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/jech-2018-211794.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/jech-2018-211794.html",
+    "method": "post"
+}, {
+    "message": "Transfrom jech-2019-212257",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "jech",
+        "doi": "jech-2019-212257",
+        "content": "/_testFiles/inputfiles/htmltoxml/jech-2019-212257.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/jech-2019-212257.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/jech-2019-212257.html",
+    "method": "post"
+}, {
+    "message": "Transfrom jnnp-2019-321121",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "jnnp",
+        "doi": "jnnp-2019-321121",
+        "content": "/_testFiles/inputfiles/htmltoxml/jnnp-2019-321121.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/jnnp-2019-321121.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/jnnp-2019-321121.html",
+    "method": "post"
+}, {
+    "message": "Transfrom jramc-2019-001263",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "jramc",
+        "doi": "jramc-2019-001263",
+        "content": "/_testFiles/inputfiles/htmltoxml/jramc-2019-001263.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/jramc-2019-001263.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/jramc-2019-001263.html",
+    "method": "post"
+}, {
+    "message": "Transfrom jramc-2019-001268",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "jramc",
+        "doi": "jramc-2019-001268",
+        "content": "/_testFiles/inputfiles/htmltoxml/jramc-2019-001268.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/jramc-2019-001268.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/jramc-2019-001268.html",
+    "method": "post"
+}, {
+    "message": "Transfrom lupus-2019-000328",
+    "status": "200",
+    "url": "/api/htmltoxml?apiKey={APIKEY}",
+    "encode": true,
+    "data": {
+        "customer": "bmj",
+        "project": "lupus",
+        "doi": "lupus-2019-000328",
+        "content": "/_testFiles/inputfiles/htmltoxml/lupus-2019-000328.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/expected/lupus-2019-000328.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/htmltoxml/actual/lupus-2019-000328.html",
+    "method": "post"
+}]

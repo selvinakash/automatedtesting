@@ -1,0 +1,1319 @@
+[{
+        "message": "Pre-Transform BJJ-2019-0383",
+        "status": "400",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bjp",
+            "project": "bjj",
+            "doi": "BJJ-2019-0383",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/BJJ-2019-0383.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/BJJ-2019-0383.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/BJJ-2019-0383.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjno-2020-000063 - License statement space issue",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjno",
+            "doi": "bmjno-2020-000063",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjno-2020-000063.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjno-2020-000063.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjno-2020-000063.html",
+        "method": "post"
+    },
+    {
+        "message": "Pre-Transform bmjopen-2020-041784 - map disclaimer suplicate issue",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjopen",
+            "doi": "bmjopen-2020-041784",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjopen-2020-041784.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjopen-2020-041784.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjopen-2020-041784.html",
+        "method": "post"
+    },
+    {
+        "message": "Pre-Transform gutjnl-2019-319637 - https should convert to ext-link",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "gutjnl",
+            "doi": "gutjnl-2019-319637",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/gutjnl-2019-319637.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/gutjnl-2019-319637.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/gutjnl-2019-319637.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform medethics-2020-106499 - keyword-split",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "medethics",
+            "doi": "medethics-2020-106499",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/medethics-2020-106499.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/medethics-2020-106499.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/medethics-2020-106499.html",
+        "method": "post"
+    },
+    {
+        "message": "Pre-Transform bcr-2019-230212",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bcr",
+            "doi": "bcr-2019-230212",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bcr-2019-230212.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bcr-2019-230212.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bcr-2019-230212.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjopen-2019-035007 - data availability statement test",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjopen",
+            "doi": "bmjopen-2019-035007",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjopen-2019-035007.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjopen-2019-035007.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjopen-2019-035007.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjdrc-2018-000591",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000591",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjdrc-2018-000591.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjdrc-2018-000591.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjdrc-2018-000591.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjdrc-2018-000621",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000621",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjdrc-2018-000621.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjdrc-2018-000621.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjdrc-2018-000621.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjgast-2018-000245",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjgast",
+            "doi": "bmjgast-2018-000245",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjgast-2018-000245.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjgast-2018-000245.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjgast-2018-000245.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjgast-2019-000273",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjgast",
+            "doi": "bmjgast-2019-000273",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjgast-2019-000273.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjgast-2019-000273.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjgast-2019-000273.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjgh-2018-000915",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjgh",
+            "doi": "bmjgh-2018-000915",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjgh-2018-000915.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjgh-2018-000915.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjgh-2018-000915.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjgh-2018-001193",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjgh",
+            "doi": "bmjgh-2018-001193",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjgh-2018-001193.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjgh-2018-001193.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjgh-2018-001193.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjgh-2019-001417",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjgh",
+            "doi": "bmjgh-2019-001417",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjgh-2019-001417.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjgh-2019-001417.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjgh-2019-001417.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjpo-2018-000414",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjpo",
+            "doi": "bmjpo-2018-000414",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjpo-2018-000414.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjpo-2018-000414.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjpo-2018-000414.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjpo-2019-000448",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjpo",
+            "doi": "bmjpo-2019-000448",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjpo-2019-000448.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjpo-2019-000448.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjpo-2019-000448.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjqs-2019-009447 - number of figures(custom-meta tag)",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjqs",
+            "doi": "bmjqs-2019-009447",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjqs-2019-009447.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjqs-2019-009447.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjqs-2019-009447.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjsem-2018-000498",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjsem",
+            "doi": "bmjsem-2018-000498",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjsem-2018-000498.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjsem-2018-000498.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjsem-2018-000498.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjsem-2019-000522",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjsem",
+            "doi": "bmjsem-2019-000522",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjsem-2019-000522.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjsem-2019-000522.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjsem-2019-000522.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjsem-2019-000529",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjsem",
+            "doi": "bmjsem-2019-000529",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjsem-2019-000529.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjsem-2019-000529.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjsem-2019-000529.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform bmjsem-2019-000534",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "bmjsem",
+            "doi": "bmjsem-2019-000534",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/bmjsem-2019-000534.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/bmjsem-2019-000534.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/bmjsem-2019-000534.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ejhpharm-2018-001806",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ejhpharm",
+            "doi": "ejhpharm-2018-001806",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ejhpharm-2018-001806.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ejhpharm-2018-001806.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ejhpharm-2018-001806.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ejhpharm-2019-001913",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ejhpharm",
+            "doi": "ejhpharm-2019-001913",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ejhpharm-2019-001913.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ejhpharm-2019-001913.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ejhpharm-2019-001913.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform flgastro-2018-101094",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "flgastro",
+            "doi": "flgastro-2018-101094",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/flgastro-2018-101094.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/flgastro-2018-101094.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/flgastro-2018-101094.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform flgastro-2018-101135",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "flgastro",
+            "doi": "flgastro-2018-101135",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/flgastro-2018-101135.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/flgastro-2018-101135.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/flgastro-2018-101135.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform flgastro-2018-101156",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "flgastro",
+            "doi": "flgastro-2018-101156",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/flgastro-2018-101156.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/flgastro-2018-101156.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/flgastro-2018-101156.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform flgastro-2019-101176",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "flgastro",
+            "doi": "flgastro-2019-101176",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/flgastro-2019-101176.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/flgastro-2019-101176.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/flgastro-2019-101176.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform flgastro-2019-101192",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "flgastro",
+            "doi": "flgastro-2019-101192",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/flgastro-2019-101192.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/flgastro-2019-101192.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/flgastro-2019-101192.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform fmch-2018-000020",
+        "status": "400",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "fmch",
+            "doi": "fmch-2018-000020",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/fmch-2018-000020.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/fmch-2018-000020.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/fmch-2018-000020.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform heartasia-2018-011086",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "heartasia",
+            "doi": "heartasia-2018-011086",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/heartasia-2018-011086.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/heartasia-2018-011086.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/heartasia-2018-011086.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform heartasia-2018-011139",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "heartasia",
+            "doi": "heartasia-2018-011139",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/heartasia-2018-011139.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/heartasia-2018-011139.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/heartasia-2018-011139.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ijgc-2019-000247",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2019-000247",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ijgc-2019-000247.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ijgc-2019-000247.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ijgc-2019-000247.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ijgc-2019-000347",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2019-000347",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ijgc-2019-000347.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ijgc-2019-000347.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ijgc-2019-000347.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ijgc-2019-000393",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2019-000393",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ijgc-2019-000393.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ijgc-2019-000393.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ijgc-2019-000393.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ijgc-2019-000447",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2019-000447",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ijgc-2019-000447.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ijgc-2019-000447.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ijgc-2019-000447.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ijgc-2019-000460",
+        "status": "400",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2019-000460",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ijgc-2019-000460.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ijgc-2019-000460.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ijgc-2019-000460.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform ijgc-2019-000487",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2019-000487",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/ijgc-2019-000487.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/ijgc-2019-000487.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/ijgc-2019-000487.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform injuryprev-2019-043213",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "injuryprev",
+            "doi": "injuryprev-2019-043213",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/injuryprev-2019-043213.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/injuryprev-2019-043213.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/injuryprev-2019-043213.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jclinpath-2018-205650",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jclinpath",
+            "doi": "jclinpath-2018-205650",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jclinpath-2018-205650.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jclinpath-2018-205650.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jclinpath-2018-205650.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jclinpath-2019-205818",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jclinpath",
+            "doi": "jclinpath-2019-205818",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jclinpath-2019-205818.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jclinpath-2019-205818.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jclinpath-2019-205818.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jech-2018-211040",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jech",
+            "doi": "jech-2018-211040",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jech-2018-211040.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jech-2018-211040.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jech-2018-211040.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jech-2018-211628",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jech",
+            "doi": "jech-2018-211628",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jech-2018-211628.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jech-2018-211628.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jech-2018-211628.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jmedgenet-2019-106111",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jmedgenet",
+            "doi": "jmedgenet-2019-106111",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jmedgenet-2019-106111.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jmedgenet-2019-106111.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jmedgenet-2019-106111.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jnnp-2018-320155",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jnnp",
+            "doi": "jnnp-2018-320155",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jnnp-2018-320155.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jnnp-2018-320155.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jnnp-2018-320155.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jnnp-2018-320213",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jnnp",
+            "doi": "jnnp-2018-320213",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jnnp-2018-320213.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jnnp-2018-320213.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jnnp-2018-320213.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jnnp-2018-320249",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jnnp",
+            "doi": "jnnp-2018-320249",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jnnp-2018-320249.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jnnp-2018-320249.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jnnp-2018-320249.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jnnp-2019-320326",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jnnp",
+            "doi": "jnnp-2019-320326",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jnnp-2019-320326.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jnnp-2019-320326.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jnnp-2019-320326.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform jnnp-2019-320756",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "jnnp",
+            "doi": "jnnp-2019-320756",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/jnnp-2019-320756.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/jnnp-2019-320756.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/jnnp-2019-320756.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform postgradmedj-2018-135662",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "postgradmedj",
+            "doi": "postgradmedj-2018-135662",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/postgradmedj-2018-135662.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/postgradmedj-2018-135662.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/postgradmedj-2018-135662.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform postgradmedj-2018-136157",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "postgradmedj",
+            "doi": "postgradmedj-2018-136157",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/postgradmedj-2018-136157.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/postgradmedj-2018-136157.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/postgradmedj-2018-136157.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform postgradmedj-2018-136314",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "postgradmedj",
+            "doi": "postgradmedj-2018-136314",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/postgradmedj-2018-136314.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/postgradmedj-2018-136314.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/postgradmedj-2018-136314.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform postgradmedj-2018-136341",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "postgradmedj",
+            "doi": "postgradmedj-2018-136341",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/postgradmedj-2018-136341.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/postgradmedj-2018-136341.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/postgradmedj-2018-136341.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform postgradmedj-2019-136627",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "postgradmedj",
+            "doi": "postgradmedj-2019-136627",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/postgradmedj-2019-136627.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/postgradmedj-2019-136627.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/postgradmedj-2019-136627.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform rapm-2018-100097",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "rapm",
+            "doi": "rapm-2018-100097",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/rapm-2018-100097.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/rapm-2018-100097.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/rapm-2018-100097.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform rapm-2018-100196",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "rapm",
+            "doi": "rapm-2018-100196",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/rapm-2018-100196.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/rapm-2018-100196.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/rapm-2018-100196.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform rapm-2019-100603",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "rapm",
+            "doi": "rapm-2019-100603",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/rapm-2019-100603.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/rapm-2019-100603.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/rapm-2019-100603.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform rmdopen-2019-000918",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "rmdopen",
+            "doi": "rmdopen-2019-000918",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/rmdopen-2019-000918.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/rmdopen-2019-000918.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/rmdopen-2019-000918.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform sextrans-2018-053747",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "sextrans",
+            "doi": "sextrans-2018-053747",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/sextrans-2018-053747.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/sextrans-2018-053747.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/sextrans-2018-053747.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform sextrans-2018-053778",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "sextrans",
+            "doi": "sextrans-2018-053778",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/sextrans-2018-053778.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/sextrans-2018-053778.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/sextrans-2018-053778.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform sextrans-2018-053854",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "sextrans",
+            "doi": "sextrans-2018-053854",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/sextrans-2018-053854.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/sextrans-2018-053854.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/sextrans-2018-053854.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform sextrans-2018-053923",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "sextrans",
+            "doi": "sextrans-2018-053923",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/sextrans-2018-053923.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/sextrans-2018-053923.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/sextrans-2018-053923.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform thoraxjnl-2018-212267",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "thoraxjnl",
+            "doi": "thoraxjnl-2018-212267",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/thoraxjnl-2018-212267.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/thoraxjnl-2018-212267.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/thoraxjnl-2018-212267.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform thoraxjnl-2018-212629",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "thoraxjnl",
+            "doi": "thoraxjnl-2018-212629",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/thoraxjnl-2018-212629.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/thoraxjnl-2018-212629.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/thoraxjnl-2018-212629.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2018-054754",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2018-054754",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2018-054754.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2018-054754.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2018-054754.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2018-054895",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2018-054895",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2018-054895.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2018-054895.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2018-054895.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2018-054909",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2018-054909",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2018-054909.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2018-054909.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2018-054909.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2019-054937",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2019-054937",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2019-054937.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2019-054937.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2019-054937.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2019-054942",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2019-054942",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2019-054942.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2019-054942.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2019-054942.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2019-054967",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2019-054967",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2019-054967.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2019-054967.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2019-054967.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2019-054981",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2019-054981",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2019-054981.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2019-054981.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2019-054981.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2019-055067 - number of figures(custom-meta tag)",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2019-055067",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2019-055067.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2019-055067.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2019-055067.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform tobaccocontrol-2019-055100",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "tobaccocontrol",
+            "doi": "tobaccocontrol-2019-055100",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/tobaccocontrol-2019-055100.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/tobaccocontrol-2019-055100.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/tobaccocontrol-2019-055100.html",
+        "method": "post"
+    }, {
+        "message": "Pre-Transform vetreccr-2018-000786",
+        "status": "200",
+        "url": "/workflow?apiKey={APIKEY}&currStage=preTransformXML",
+        "encode": false,
+        "data": {
+            "customer": "bmj",
+            "project": "vetreccr",
+            "doi": "vetreccr-2018-000786",
+            "update": "false",
+            "status": {
+                "code": 200
+            },
+            "content": "/_testFiles/inputfiles/updatemeta/vetreccr-2018-000786.xml"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/updatemeta/expected/vetreccr-2018-000786.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/updatemeta/actual/vetreccr-2018-000786.html",
+        "method": "post"
+    }
+]

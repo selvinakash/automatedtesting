@@ -1,0 +1,128 @@
+[{
+    "message": "Return data if we pass all parameters - CSL",
+    "status": "200",
+    "url": "/api/process_reference?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "data": "<validate projectname='bmj'><p class='jrnlRefText' id='R5'><span class='RefSlNo'>5.</span><span class='RefAuthor'><span class='RefSurName' id='4f526a6f-af91-4817-8946-0236b2884350'>Nathan</span> <span class='RefGivenName' id='e9d8e502-4009-476f-b362-1637920956bd'>DM</span></span><span class='RefAuthor'><span class='RefSurName' id='1319b15a-b222-48af-9ed4-ff8fdcdcd5fb'>Buse</span> <span class='RefGivenName' id='fcd726ec-16aa-4e5d-8569-62a7bed499c6'>JB</span></span><span class='RefAuthor'><span class='RefSurName' id='8f90cdca-866d-47d7-abcb-3440d8794d81'>Davidson</span> <span class='RefGivenName' id='f0a566b6-8dea-45fd-a0e6-06164fd2aaaf'>MB</span></span>, <span class='RefEtal'>et al</span><span class='RefYear'>2009</span><span class='RefArticleTitle'>Medical <span data-cid='1560836564002' id='e56a41d1-cf9c-416a-80f1-d30d98ceea19' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R101' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>management</span> of <span data-cid='1560836564003' id='cd4b0ebb-8f03-4969-8b19-e1f3c5b45c2a' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R102' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>hyperglycemia</span> in <span data-cid='1560836564004' id='5b491b8e-1ba3-4518-9be8-a99c33fa172f' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R103' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>type</span> 2 <span data-cid='1560836564005' id='41017dd0-deca-4d62-a5c1-e3246b2ff0a1' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R104' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>diabetes</span>: <span data-cid='1560836564006' id='7fbafc68-3d52-4bb1-9d1a-fe0de39d5f55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R105' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>a</span> <span data-cid='1560836564007' id='8f3b1413-8bf3-4232-b79e-0d26e1ce8024' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R106' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>consensus</span> <span data-cid='1560836564008' id='26fd9c0d-ad47-4624-9f43-5d41bdbd57fb' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R107' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>algorithm</span> for the <span data-cid='1560836564009' id='9a329805-a197-4ca0-9706-e1705cb5eb93' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R108' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>initiation</span> and <span data-cid='1560836564010' id='45d94ddf-3bd0-465e-ad43-96fe96a0bc55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R109' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>adjustment</span> of <span data-cid='1560836564011' id='0a55e179-6ab0-426d-9e05-7011601f0ae5' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R1010' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>therapy</span></span><span class='RefJournalTitle'>Diabetes Care</span><span class='RefVolume'>32</span><span class='RefFPage'>193</span><span class='RefLPage'>203</span><span class='RefDOI'>10.2337/dc08-9025</span></p></validate>",
+        "processType": "editReference",
+        "project": "bmjdrc",
+        "cslType": "validate",
+        "cslStyle": "BMJ-Vancover.csl",
+        "slNo": "5"
+    },
+    "expectedOutput": {
+        "status": {
+            "code": 200,
+            "message": "Error in parsing reference"
+        }
+    },
+    "method": "post"
+}, {
+    "message": "Return data if we pass all parameters - CSL - another reference",
+    "status": "200",
+    "url": "/api/process_reference?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "data": "<validate projectname='bmj'><p class='jrnlRefText' id='R52' type='article-journal'><span class='RefAuthor'><span class='RefGivenName'>Beth I.</span> <span class='RefSurName'>Wallace</span></span><span class='RefAuthor'><span class='RefGivenName'>Paul</span> <span class='RefSurName'>Lin</span></span><span class='RefAuthor'><span class='RefGivenName'>Neil</span> <span class='RefSurName'>Kamdar</span></span><span class='RefAuthor'><span class='RefGivenName'>Mohamed</span> <span class='RefSurName'>Noureldin</span></span><span class='RefAuthor'><span class='RefGivenName'>Rodney</span> <span class='RefSurName'>Hayward</span></span><span class='RefAuthor'><span class='RefGivenName'>David A.</span> <span class='RefSurName'>Fox</span></span><span class='RefAuthor'><span class='RefGivenName'>Jeffrey R.</span> <span class='RefSurName'>Curtis</span></span><span class='RefAuthor'><span class='RefGivenName'>Kenneth G.</span> <span class='RefSurName'>Saag</span></span><span class='RefAuthor'><span class='RefGivenName'>Akbar K.</span> <span class='RefSurName'>Waljee</span></span><span class='RefYear'>2019</span><span class='RefArticleTitle'>Patterns of glucocorticoid prescribing and provider-level variation in a commercially insured incident rheumatoid arthritis population: A retrospective cohort study</span><span class='RefJournalTitle'>Seminars in Arthritis and Rheumatism</span><span class='RefDOI'>10.1016/j.semarthrit.2019.09.002</span><span class='RefSlNo'>52</span></p></validate>",
+        "processType": "editReference",
+        "project": "bmjdrc",
+        "cslType": "validate",
+        "cslStyle": "BMJ-Vancover.csl",
+        "slNo": "52"
+    },
+    "expectedOutput": {
+        "status": {
+            "code": 200,
+            "message": "Error in parsing reference"
+        }
+    },
+    "method": "post"
+}, {
+    "message": "Return data if we pass all parameters - Normal (Without CSL)",
+    "status": "200",
+    "url": "/api/process_reference?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "data": "<validate projectname='bmj'><p class='jrnlRefText' id='R5'><span class='RefSlNo'>5.</span><span class='RefAuthor'><span class='RefSurName' id='4f526a6f-af91-4817-8946-0236b2884350'>Nathan</span> <span class='RefGivenName' id='e9d8e502-4009-476f-b362-1637920956bd'>DM</span></span><span class='RefAuthor'><span class='RefSurName' id='1319b15a-b222-48af-9ed4-ff8fdcdcd5fb'>Buse</span> <span class='RefGivenName' id='fcd726ec-16aa-4e5d-8569-62a7bed499c6'>JB</span></span><span class='RefAuthor'><span class='RefSurName' id='8f90cdca-866d-47d7-abcb-3440d8794d81'>Davidson</span> <span class='RefGivenName' id='f0a566b6-8dea-45fd-a0e6-06164fd2aaaf'>MB</span></span>, <span class='RefEtal'>et al</span><span class='RefYear'>2009</span><span class='RefArticleTitle'>Medical <span data-cid='1560836564002' id='e56a41d1-cf9c-416a-80f1-d30d98ceea19' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R101' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>management</span> of <span data-cid='1560836564003' id='cd4b0ebb-8f03-4969-8b19-e1f3c5b45c2a' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R102' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>hyperglycemia</span> in <span data-cid='1560836564004' id='5b491b8e-1ba3-4518-9be8-a99c33fa172f' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R103' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>type</span> 2 <span data-cid='1560836564005' id='41017dd0-deca-4d62-a5c1-e3246b2ff0a1' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R104' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>diabetes</span>: <span data-cid='1560836564006' id='7fbafc68-3d52-4bb1-9d1a-fe0de39d5f55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R105' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>a</span> <span data-cid='1560836564007' id='8f3b1413-8bf3-4232-b79e-0d26e1ce8024' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R106' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>consensus</span> <span data-cid='1560836564008' id='26fd9c0d-ad47-4624-9f43-5d41bdbd57fb' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R107' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>algorithm</span> for the <span data-cid='1560836564009' id='9a329805-a197-4ca0-9706-e1705cb5eb93' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R108' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>initiation</span> and <span data-cid='1560836564010' id='45d94ddf-3bd0-465e-ad43-96fe96a0bc55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R109' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>adjustment</span> of <span data-cid='1560836564011' id='0a55e179-6ab0-426d-9e05-7011601f0ae5' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R1010' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>therapy</span></span><span class='RefJournalTitle'>Diabetes Care</span><span class='RefVolume'>32</span><span class='RefFPage'>193</span><span class='RefLPage'>203</span><span class='RefDOI'>10.2337/dc08-9025</span></p></validate>",
+        "processType": "editReference",
+        "project": "bmjdrc",
+        "cslType": "validate",
+        "slNo": "5"
+    },
+    "param": {
+        "parameters": [{
+                "name": "statusCode",
+                "value": 200,
+                "type": "number"
+            }, {
+                "name": "body",
+                "type": "string",
+                "value": "\nCollecting information from References ...\nCollecting information for Ref 1 of 1\nGetting PubMed ID's for References...\ngeting PMIDs for R1 of 2\nFetching Information from PubMed...\nCollecting PubMed Info. for R1 ...\nGetting DOI for References...\ngeting MetaXMLFromCrossRef for R1 of 0\nFetching Information from CrossRef...\nCollecting Info. from CrossRef for 0 of 1...\nEditing Reference 1 of 1\nCollecting information for Ref 1 of 1\nEditing Reference 1 of 1\n Comparing Reference data 1 of 1<response><validate projectname=\"bmj\"><p class=\"jrnlRefText noPMID\" id=\"R1\" seqid=\"R1\" data-doi=\"10.2337/dc08-9025\"><span class=\"RefSlNo\">5</span><span class=\"RefAuthor\"><span class=\"RefSurName\">Nathan</span> <span class=\"RefGivenName\">DM</span></span>, <span class=\"RefAuthor\"><span class=\"RefSurName\">Buse</span> <span class=\"RefGivenName\">JB</span></span>, <span class=\"RefAuthor\"><span class=\"RefSurName\">Davidson</span> <span class=\"RefGivenName\">MB</span></span>, <span class=\"RefEtal\">et al</span>. <span class=\"RefArticleTitle\">Medical management of hyperglycemia in type 2 diabetes: a consensus algorithm for the initiation and adjustment of therapy</span>. <span class=\"RefJournalTitle\">Diabetes Care</span> <span class=\"RefYear\">2009</span>;<span class=\"RefVolume\">32</span>:<span class=\"RefFPage\">193</span>&ndash;<span class=\"RefLPage\">203</span>.</p></validate></response>"
+            }, {
+                "name": "headers",
+                "type": "object"
+            },
+            {
+                "name": "request",
+                "type": "object"
+            }
+        ]
+    },
+    "method": "post"
+}, {
+    "message": "Return error when we not passed the project name",
+    "status": "200",
+    "url": "/api/process_reference?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "data": "<validate projectname='bmj'><p class='jrnlRefText' id='R5'><span class='RefSlNo'>5.</span><span class='RefAuthor'><span class='RefSurName' id='4f526a6f-af91-4817-8946-0236b2884350'>Nathan</span> <span class='RefGivenName' id='e9d8e502-4009-476f-b362-1637920956bd'>DM</span></span><span class='RefAuthor'><span class='RefSurName' id='1319b15a-b222-48af-9ed4-ff8fdcdcd5fb'>Buse</span> <span class='RefGivenName' id='fcd726ec-16aa-4e5d-8569-62a7bed499c6'>JB</span></span><span class='RefAuthor'><span class='RefSurName' id='8f90cdca-866d-47d7-abcb-3440d8794d81'>Davidson</span> <span class='RefGivenName' id='f0a566b6-8dea-45fd-a0e6-06164fd2aaaf'>MB</span></span>, <span class='RefEtal'>et al</span><span class='RefYear'>2009</span><span class='RefArticleTitle'>Medical <span data-cid='1560836564002' id='e56a41d1-cf9c-416a-80f1-d30d98ceea19' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R101' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>management</span> of <span data-cid='1560836564003' id='cd4b0ebb-8f03-4969-8b19-e1f3c5b45c2a' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R102' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>hyperglycemia</span> in <span data-cid='1560836564004' id='5b491b8e-1ba3-4518-9be8-a99c33fa172f' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R103' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>type</span> 2 <span data-cid='1560836564005' id='41017dd0-deca-4d62-a5c1-e3246b2ff0a1' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R104' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>diabetes</span>: <span data-cid='1560836564006' id='7fbafc68-3d52-4bb1-9d1a-fe0de39d5f55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R105' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>a</span> <span data-cid='1560836564007' id='8f3b1413-8bf3-4232-b79e-0d26e1ce8024' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R106' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>consensus</span> <span data-cid='1560836564008' id='26fd9c0d-ad47-4624-9f43-5d41bdbd57fb' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R107' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>algorithm</span> for the <span data-cid='1560836564009' id='9a329805-a197-4ca0-9706-e1705cb5eb93' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R108' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>initiation</span> and <span data-cid='1560836564010' id='45d94ddf-3bd0-465e-ad43-96fe96a0bc55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R109' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>adjustment</span> of <span data-cid='1560836564011' id='0a55e179-6ab0-426d-9e05-7011601f0ae5' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R1010' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>therapy</span></span><span class='RefJournalTitle'>Diabetes Care</span><span class='RefVolume'>32</span><span class='RefFPage'>193</span><span class='RefLPage'>203</span><span class='RefDOI'>10.2337/dc08-9025</span></p></validate>",
+        "processType": "editReference"
+    },
+    "param": {
+        "parameters": [{
+                "name": "statusCode",
+                "value": 200,
+                "type": "number"
+            }, {
+                "name": "body",
+                "type": "string",
+                "value": "\nCollecting information from References ...\nCould not fetch StyleTemplate configuration from the server, please contact support"
+            }, {
+                "name": "headers",
+                "type": "object"
+            },
+            {
+                "name": "request",
+                "type": "object"
+            }
+        ]
+    },
+    "method": "post"
+}, {
+    "message": "Return error when we not passed the customer name",
+    "status": "200",
+    "url": "/api/process_reference?apiKey={APIKEY}",
+    "data": {
+        "data": "<validate projectname='bmj'><p class='jrnlRefText' id='R5'><span class='RefSlNo'>5.</span><span class='RefAuthor'><span class='RefSurName' id='4f526a6f-af91-4817-8946-0236b2884350'>Nathan</span> <span class='RefGivenName' id='e9d8e502-4009-476f-b362-1637920956bd'>DM</span></span><span class='RefAuthor'><span class='RefSurName' id='1319b15a-b222-48af-9ed4-ff8fdcdcd5fb'>Buse</span> <span class='RefGivenName' id='fcd726ec-16aa-4e5d-8569-62a7bed499c6'>JB</span></span><span class='RefAuthor'><span class='RefSurName' id='8f90cdca-866d-47d7-abcb-3440d8794d81'>Davidson</span> <span class='RefGivenName' id='f0a566b6-8dea-45fd-a0e6-06164fd2aaaf'>MB</span></span>, <span class='RefEtal'>et al</span><span class='RefYear'>2009</span><span class='RefArticleTitle'>Medical <span data-cid='1560836564002' id='e56a41d1-cf9c-416a-80f1-d30d98ceea19' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R101' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>management</span> of <span data-cid='1560836564003' id='cd4b0ebb-8f03-4969-8b19-e1f3c5b45c2a' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R102' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>hyperglycemia</span> in <span data-cid='1560836564004' id='5b491b8e-1ba3-4518-9be8-a99c33fa172f' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R103' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>type</span> 2 <span data-cid='1560836564005' id='41017dd0-deca-4d62-a5c1-e3246b2ff0a1' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R104' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>diabetes</span>: <span data-cid='1560836564006' id='7fbafc68-3d52-4bb1-9d1a-fe0de39d5f55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R105' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>a</span> <span data-cid='1560836564007' id='8f3b1413-8bf3-4232-b79e-0d26e1ce8024' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R106' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>consensus</span> <span data-cid='1560836564008' id='26fd9c0d-ad47-4624-9f43-5d41bdbd57fb' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R107' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>algorithm</span> for the <span data-cid='1560836564009' id='9a329805-a197-4ca0-9706-e1705cb5eb93' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R108' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>initiation</span> and <span data-cid='1560836564010' id='45d94ddf-3bd0-465e-ad43-96fe96a0bc55' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R109' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>adjustment</span> of <span data-cid='1560836564011' id='0a55e179-6ab0-426d-9e05-7011601f0ae5' title='Inserted by cross-ref - 2019/06/18 11:12 am' data-track-detail='' data-diff-rid='R1010' data-userid='cross-ref' data-username='cross-ref' data-time='1560836564000' class='ins cts-1'>therapy</span></span><span class='RefJournalTitle'>Diabetes Care</span><span class='RefVolume'>32</span><span class='RefFPage'>193</span><span class='RefLPage'>203</span><span class='RefDOI'>10.2337/dc08-9025</span></p></validate>",
+        "processType": "editReference",
+        "project": "bmjdrc"
+    },
+    "param": {
+        "parameters": [{
+                "name": "statusCode",
+                "value": 200,
+                "type": "number"
+            }, {
+                "name": "body",
+                "type": "string",
+                "value": "\nCollecting information from References ...\nCould not fetch StyleTemplate configuration from the server, please contact support"
+            },
+            {
+                "name": "request",
+                "type": "object"
+            }
+        ]
+    },
+    "method": "post"
+}]

@@ -1,0 +1,51 @@
+[{
+        "message": "Return issue data file as XML for thoraxjnl_74_6",
+        "status": "200",
+        "url": "/api/getissuedata/?apiKey={APIKEY}&doi=thoraxjnl_74_6&customer=bmj&project=thoraxjnl",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getissuedata/thoraxjnl_74_6.json",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getissuedata/actual/thoraxjnl_74_6.json",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when authenticaion not given",
+        "status": "401",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "url": "/api/getissuedata/",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when customer name is not given",
+        "status": "400",
+        "url": "/api/getissuedata/?apiKey={APIKEY}&doi=bjophthalmol_103_2&project=bjophthalmol",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer, project, issue filename) is/are not provided."
+            }
+        },
+        "method": "get"
+    }, {
+        "message": "Don't return article file when project name is not given",
+        "status": "400",
+        "url": "/api/getissuedata/?apiKey={APIKEY}&doi=bjophthalmol_103_2&customer=bmj",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer, project, issue filename) is/are not provided."
+            }
+        },
+        "method": "get"
+    }, {
+        "message": "Don't return article file when doi is not given",
+        "status": "200",
+        "url": "/api/getissuedata/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getissuedata/unknown-customerOutput.json",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getissuedata/actual/unknown-customerOutput.json",
+        "method": "get"
+    }
+]

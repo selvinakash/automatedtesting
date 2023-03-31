@@ -1,0 +1,27 @@
+[
+    {
+        "message": "Return data from resources when we provide exact parameters like doi, customer and dproject",
+        "status" : "200",
+        "url" : "/api/listbucket?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&doi=bjophthalmolphthalmol-2018-312765",
+        "method" : "get"
+    },   
+    {
+        "message": "Not return any data when we not provide exact parameters",
+        "status" : "200",
+        "url" : "/api/listbucket?apiKey={APIKEY}&customer=bmj",
+        "method" : "get",
+        "expectedOutput" : ""
+    },
+    {
+        "message": "Return data when we access without login credentials",
+        "status" : "401",
+        "url" : "/api/listbucket?customer=bmj",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method" : "get"
+    }      
+] 

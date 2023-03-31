@@ -1,0 +1,39 @@
+[{
+    "message": "Add new project under sage customer",
+    "param": {
+        "parameters": [{
+            "name": "_id",
+            "type": "string",
+            "value": "sage"
+        }, {
+            "name": "_type",
+            "type": "string",
+            "value": "customer"
+        }, {
+            "name": "result",
+            "type": "string",
+            "value": "noop"
+        }]
+    },
+    "status": "200",
+    "url": "/api/customerproject?apiKey={APIKEY}",
+    "data": {
+        "project": {
+            "componentTemplate": "/config/default/_config_review_content.xml",
+            "customCSS": "/css/review_content/customers/bmj/content-style.css",
+            "editorEmail": "sabari@exeter.com",
+            "fullName": "test - 22",
+            "jobTemplate": "/annrheumdis/jobTemplate.xml",
+            "name": "test",
+            "pe": "Antonia Johnston, Kelly Stroud",
+            "pm": "Sabari",
+            "publisher-email": "crest@exeterpremedia.com",
+            "styleTemplate": "/default/styleTemplate.xml",
+            "tableSetterCSS": "/css/table_setter/customers/bmj/annrheumdis/table-config.css",
+            "tableSetterConfig": "/js/review_content/config/customer/bmj/annrheumdis/indesignAutoPageConfig.js",
+            "workflowTemplate": "/default/workflowTemplate.xml"
+        },
+        "id": "sage"
+    },
+    "method": "post"
+}]

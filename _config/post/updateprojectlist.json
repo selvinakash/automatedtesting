@@ -1,0 +1,91 @@
+[{
+        "message": "update project list for particular customer",
+        "status": "200",
+        "url": "/api/updateprojectlist?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj"
+        },
+        "method": "post",
+        "expectedOutput": {
+            "status": 200,
+            "message": [
+                "bmj updated"
+            ],
+            "output": []
+        }
+    },
+    {
+        "message": "update project list for array of customers",
+        "status": "200",
+        "url": "/api/updateprojectlist?apiKey={APIKEY}",
+        "data": {
+            "customer": ["bmj", "bir"]
+        },
+        "method": "post",
+        "expectedOutput": {
+            "status": 200,
+            "message": [
+                "bmj updated",
+                "bir updated"
+            ],
+            "output": []
+        }
+    }, {
+        "message": "update project list for array of customers and return error for invaild customer",
+        "status": "200",
+        "url": "/api/updateprojectlist?apiKey={APIKEY}",
+        "data": {
+            "customer": ["bmj", "bir", "sabari"]
+        },
+        "method": "post",
+        "expectedOutput": {
+            "status": 200,
+            "message": [
+                "bmj updated",
+                "bir updated"
+            ],
+            "output": [
+                "sabari is not found in customer list"
+            ]
+        }
+    },
+    {
+        "message": "Return error when customer name missing",
+        "method": "post",
+        "data": {
+            "customer": ""
+        },
+        "expectedOutput": {
+            "status": 400,
+            "message": "Customer name missing"
+        },
+        "status": "400",
+        "url": "/api/updateprojectlist?apiKey={APIKEY}"
+    }, {
+        "message": "Return error when customer name is wrong",
+        "method": "post",
+        "data": {
+            "customer": "sabari"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "message": "Unable to find given customer name"
+        },
+        "status": "400",
+        "url": "/api/updateprojectlist?apiKey={APIKEY}"
+    }, {
+        "message": "Return error when user is not authorised",
+        "method": "post",
+        "data": {
+            "customer": "bmj"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "status": "401",
+        "url": "/api/updateprojectlist"
+    }
+]

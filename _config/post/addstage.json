@@ -1,0 +1,96 @@
+[     
+    {
+        "message": "Return data if we pass all parameters - change the stage to hold",       
+        "status" : "200",
+        "url" : "/api/addstage?apiKey={APIKEY}",
+        "data" :{            
+            "customer" : "bmj",
+            "project" : "jramc",
+            "doi" : "jramc-2019-001187",
+            "stageName" : "Hold"
+        },   
+        "method" : "post"
+    },   
+    {
+        "message": "Return error if we not passed the customer name",        
+        "status" : "200",
+        "url" : "/api/addstage?apiKey={APIKEY}",
+        "data" :{            
+            "project" : "jramc",
+            "doi" : "jramc-2019-001187"
+        },
+        "expectedOutput" : {
+            "status": {
+                "code": 500,
+                "message": "One or more of required parameters (customer id, project id, current stage) is/are not provided. requested action on stage  cannot be done. Unexpected input"
+            }
+        },
+        "method" : "post"
+    },
+    {
+        "message": "Return error if we not passed the stage name",       
+        "status" : "400",
+        "url" : "/api/addstage?apiKey={APIKEY}",
+        "data" :{            
+            "customer" : "bmj",
+            "project" : "jramc",
+            "doi" : "jramc-2019-001187"
+        },
+        "expectedOutput" :{
+            "status": {
+                "code": "400",
+                "message": "Could not get undefined from stage template"
+            },
+            "step": "add stage"
+        },
+        "method" : "post"
+    },
+    {
+        "message": "Return user data when user without have login credentials",
+        "status" : "401",
+        "url" : "/api/addstage",
+        "data" :{            
+            "customer" : "bmj",
+            "project" : "jramc",
+            "doi" : "jramc-2019-001187",
+            "stageName" : "Hold"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method" : "post"
+    },{
+        "message": "Return Error if we pass the stage name as current stage",       
+        "status" : "200",
+        "url" : "/api/addstage?apiKey={APIKEY}",
+        "data" :{            
+            "customer" : "bmj",
+            "project" : "jramc",
+            "doi" : "jramc-2019-001187",
+            "stageName" : "Hold"
+        },
+        "expectedOutput" : {
+            "status": {
+                "code": "200",
+                "message": "Current stage name and requested name are same : Hold"
+            },
+            "step": "add stage"
+        },
+        "method" : "post"
+    },
+    {
+        "message": "Return data if we pass all parameters - change the stage to Publisher Review",       
+        "status" : "200",
+        "url" : "/api/addstage?apiKey={APIKEY}",
+        "data" :{            
+            "customer" : "bmj",
+            "project" : "jramc",
+            "doi" : "jramc-2019-001187",
+            "stageName" : "Publisher Review"
+        },      
+        "method" : "post"
+    }  
+] 

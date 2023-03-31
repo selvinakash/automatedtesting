@@ -1,0 +1,56 @@
+[{
+        "message": "Return error message when input file is missing",
+        "status": "400",
+        "url": "/api/preprocessxml?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjo-test-27June"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "Could not pre-process the xml. Input content missing",
+                "error": {
+                    "status": {
+                        "code": "400",
+                        "message": "update meta reject",
+                        "error": null
+                    },
+                    "step": "preprocessxml"
+                }
+            },
+            "step": "preprocessxml"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error message when Authentication is not given",
+        "status": "401",
+        "url": "/api/preprocessxml",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjo-test-27June"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Preprocess the content for IMA Article",
+        "status": "200",
+        "url": "/api/preprocessxml?apiKey={APIKEY}",
+        "data": {
+            "customer": "ima",
+            "project": "ijm",
+            "doi": "ijm-00001"
+        },
+        "expectedOutput": "article updated",
+        "method": "post"
+    }
+]

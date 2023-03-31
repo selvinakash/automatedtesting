@@ -1,0 +1,42 @@
+[{
+        "message": "Return customer list when authenticaion given",
+        "status": "200",
+        "url": "/api/customers/?apiKey={APIKEY}",
+        "param": {
+            "key": "body.hits.hits",
+            "parameters": [{
+                    "name": "_id",
+                    "type": "string"
+                },
+                {
+                    "name": "_source",
+                    "element": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "_source",
+                    "element": "fullName",
+                    "type": "string"
+                },
+                {
+                    "name": "_source",
+                    "element": "status",
+                    "type": "string"
+                }
+            ]
+        },
+        "method": "get"
+    },
+    {
+        "message": "Don't return customer list when authenticaion not given",
+        "status": "401",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "url": "/api/customers/",
+        "method": "get"
+    }
+]

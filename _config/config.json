@@ -1,0 +1,6 @@
+{
+    "port": 8000,
+    "dbName": "testDatajobs.db",
+    "tableName": "testDetails",
+    "projectName": "Testing server"
+}

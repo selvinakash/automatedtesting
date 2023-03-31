@@ -1,0 +1,6 @@
+[{
+    "message": "Get basic config for BMJ- BJO",
+    "status": "200",
+    "url": "/api/getbasicconfig?apiKey={APIKEY}&customer=bmj&project=bjophthalmol",    
+    "method": "get"
+}]

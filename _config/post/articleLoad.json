@@ -1,0 +1,61 @@
+[           
+    {
+        "message": "Load article 64589",       
+        "status" : "200",
+        "url" : "/workflow?currStage=parseEmail",
+        "data" :{            
+            "customer": "elife",
+            "project": "elife",
+            "doi": "64589",
+            "ftpFileName": "64589",
+            "articleTitle": "articleTitle",
+            "articleType": "articleType",
+            "subject": "field",
+            "specialInstructions": "specialInstructions",
+            "priority": "priority",
+            "mandatoryFields": "mandatoryFields",
+            "hasMandatoryData": "hasMandatoryData",
+            "forceLoad": "true",
+            "status": {
+              "code": 200
+            }
+        },
+        "expectedOutput" : {
+          "status": {
+              "code": 200,
+              "message": "data received",
+              "data": "\"job reloaded successfully\""
+          }
+      },
+        "method" : "post"
+    },{
+      "message": "Load article 64509",       
+      "status" : "200",
+      "url" : "/workflow?currStage=parseEmail",
+      "data" :{            
+          "customer": "elife",
+          "project": "elife",
+          "doi": "64509",
+          "ftpFileName": "64509",
+          "articleTitle": "articleTitle",
+          "articleType": "articleType",
+          "subject": "field",
+          "specialInstructions": "specialInstructions",
+          "priority": "priority",
+          "mandatoryFields": "mandatoryFields",
+          "hasMandatoryData": "hasMandatoryData",
+          "forceLoad": "true",
+          "status": {
+            "code": 200
+          }
+      },
+      "expectedOutput" : {
+        "status": {
+            "code": 200,
+            "message": "data received",
+            "data": "\"job reloaded successfully\""
+        }
+    },
+      "method" : "post"
+   } 
+] 

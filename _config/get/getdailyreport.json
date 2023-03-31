@@ -1,0 +1,24 @@
+[{
+                "message": "Return report when particular customer is available for typeSetter",
+                "status": "200",
+                "url": "/api/getdailyreport/?apiKey={APIKEY}&customer=bmj&year=2019&date=20&month=06&stageName=Typesetter Check&tickets=1",
+                "fileLocation": "/_testFiles/expectedoutputfiles/getdailyreport/sample_typesetter.html",
+                "outputfileLocation": "/_testFiles/expectedoutputfiles/getdailyreport/actual/sample_typesetter.html",
+                "method": "get"
+        },
+        {
+                "message": "Return report when particular customer is available for Support articles",
+                "status": "200",
+                "url": "/api/getdailyreport/?apiKey={APIKEY}&customer=bmj&year=2019&date=20&month=06&stageName=Support&tickets=1",
+                "fileLocation": "/_testFiles/expectedoutputfiles/getdailyreport/sample_support.html",
+                "outputfileLocation": "/_testFiles/expectedoutputfiles/getdailyreport/actual/sample_support.html",
+                "method": "get"
+        },
+        {
+                "message": "Return error when particular customer is not available",
+                "expectedOutput": "",
+                "status": "200",
+                "url": "/api/getdailyreport/?apiKey={APIKEY}&year=2019&date=20&month=06&stageName=Typesetter Check&tickets=1",
+                "method": "get"
+        }
+]

@@ -1,0 +1,42 @@
+[{
+    "message": "Return error when we not passed the customer name",
+    "status": "200",
+    "url": "/api/exportallarticles?apiKey={APIKEY}",
+    "data": {
+        "project": "thoraxjnl",
+        "fileName": "thoraxjnl_74_2"
+    },
+    "expectedOutput": {
+        "status": {
+            "code": 200,
+            "message": "One or more of required parameters (customer, project, issue filename) is/are not provided."
+        }
+    },
+    "method": "post"
+},{
+    "message": "Return error when we not passed the project name",
+    "status": "200",
+    "url": "/api/exportallarticles?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "doi": "thoraxjnl_74_2"
+    },
+    "expectedOutput": {
+        "status": {
+            "code": 200,
+            "message": "One or more of required parameters (customer, project, issue filename) is/are not provided."
+        }
+    },
+    "method": "post"
+},{
+    "message" : "Return success message when we pass all parameter like customer, project, fileName(Issue name)",
+    "status" : "200",
+    "data" : {
+        "customer": "bmj",
+        "project" : "thoraxjnl",
+        "doi": "thoraxjnl_74_2"
+    },
+    "expectedOutput" : "",
+    "method" : "post",
+    "url" : "/api/exportallarticles?apiKey={APIKEY}"
+}]

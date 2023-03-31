@@ -1,0 +1,67 @@
+[{
+        "message": "Return success message for update copyright",
+        "status": "200",
+        "url": "/api/updatecopyright?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2019-314537"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": {
+                    "license": "nonOA",
+                    "copyrightStatement": "nonOA",
+                    "paymentMethod": "noapc",
+                    "paymentStatus": "no",
+                    "currentStage": "Pre-editing",
+                    "priority": "",
+                    "holdType": "NoHold",
+                    "holdStatus": "false",
+                    "matchStage": "Pre-editing"
+                }
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error when customer name is not given",
+        "status": "200",
+        "url": "/api/updatecopyright?apiKey={APIKEY}",
+        "data": {
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2019-314537"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "One or more of required parameters (customer id, project id) is/are not provided. requested action on stage  cannot be done. Unexpected input"
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error when file is not exists",
+        "status": "400",
+        "url": "/api/updatecopyright?apiKey={APIKEY}",
+        "data":  {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2019-456789"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": {
+                    "status": {
+                        "code": 500,
+                        "message": "Requested file does not exists"
+                    }
+                }
+            },
+            "step": "update copyright"
+        },
+        "method": "post"
+    }
+]

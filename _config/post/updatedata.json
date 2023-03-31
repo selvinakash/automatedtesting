@@ -1,0 +1,364 @@
+[{
+        "message": "Update the content using the xpath",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "update",
+                "update": "//article//article-meta/article-id[@pub-id-type='nlm-ta']",
+                "content": "<article-id pub-id-type='test' id='b86550e-a436-4e63-8c04-feb27c0382d8'>10.1136/sabari</article-id>"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "update",
+                        "update": "//article//article-meta/article-id[@pub-id-type='nlm-ta']"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To remove the content using the xpath",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "remove",
+                "remove": "//article//journal-meta/publisher/publisher-loc",
+                "content": "<publisher-loc id='b17058e4-b6f5-49bc-ac73-c4933953a83e'>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc>"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "remove",
+                        "remove": "//article//journal-meta/publisher/publisher-loc"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To append the content using the xpath - Append the pdf tag inside the stage",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "append",
+                "append": "//workflow/stage[last()-1]/object/proof",
+                "content": "<pdf user='sabari (BMJ)' role='publisher' time='1602515154552' path='http://kriya2.kriyadocs.com/resources/bmj/annrheumdis/annrheumdis-2020-218398/proofing/annrheumdis-2020-218398.pdf?method=server'/>"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "append",
+                        "append": "//workflow/stage[last()-1]/object/proof"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To insert data after the xpath - process: insertafter",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "insertafter",
+                "insertafter": "//counts",
+                "content": "<test/>"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "insertafter",
+                        "insertafter": "//counts"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To insert data before the xpath - process: insertbefore",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "insertbefore",
+                "insertbefore": "//counts",
+                "content": "<test2/>"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "insertbefore",
+                        "insertbefore": "//counts"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To insert data in a position - process: insertinposition",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "insertinposition",
+                "insertinposition": "//custom-meta[last()]",
+                "position": "2",
+                "content": "<test3/>"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": []
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To update the attribute - process: updateattribute",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "updateattribute",
+                "updateattribute": "//article-id[@pub-id-type='doi']",
+                "content": {
+                    "att1": "test1",
+                    "att2": "test2",
+                    "id": "1234-5678-9876-54321"
+                }
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "updateattribute",
+                        "updateattribute": "//article-id[@pub-id-type='doi']"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    }, {
+        "message": "To remove the attribute - process: removeattribute",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "removeattribute",
+                "removeattribute": "//article-id[@pub-id-type='doi']",
+                "content": {
+                    "att1": "test1"
+                }
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "removeattribute",
+                        "removeattribute": "//article-id[@pub-id-type='doi']"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    }, {
+        "message": "To append the value - additional condition: 1) parent-node 2) parent-append",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "append",
+                "append": "//workflow/stage[last()-1]/object/proof",
+                "content": "<pdf user='sabarianand.s (BMJ)' role='typesetter' time='test' path='http://kriya2.kriyadocs.com/resources/bmj/annrheumdis/annrheumdis-2020-218398/proofing/annrheumdis-2020-218398.pdf?method=server'/>",
+                "parent-node": "proof",
+                "parent-append": "//workflow/stage[last()]/object"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "append",
+                        "append": "//workflow/stage[last()-1]/object/proof",
+                        "parent-node": "proof",
+                        "parent-append": "//workflow/stage[last()]/object"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To append the value - parent-insertbefore",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "append",
+                "append": "//workflow/stage[last()-1]/object/proof",
+                "content": "<pdf user='sabarianand.s (BMJ)' role='typesetter - parent insertbefore' time='test' path='http://kriya2.kriyadocs.com/resources/bmj/annrheumdis/annrheumdis-2020-218398/proofing/annrheumdis-2020-218398.pdf?method=server'/>",
+                "parent-node": "proof",
+                "parent-insertbefore": "//workflow/stage[last()]/object"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "append",
+                        "append": "//workflow/stage[last()-1]/object/proof",
+                        "parent-node": "proof",
+                        "parent-insertbefore": "//workflow/stage[last()]/object"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "To append the value - parent-insertafter",
+        "status": "200",
+        "url": "/api/updatedata?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2020-218398",
+            "data": {
+                "process": "append",
+                "append": "//workflow/stage[last()-1]/object/proof",
+                "content": "<pdf user='sabarianand.s (BMJ)' role='typesetter- parent insertafter' time='test' path='http://kriya2.kriyadocs.com/resources/bmj/annrheumdis/annrheumdis-2020-218398/proofing/annrheumdis-2020-218398.pdf?method=server'/>",
+                "parent-node": "proof",
+                "parent-insertafter": "//workflow/stage[last()]/object"
+            }
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "success"
+            },
+            "message": {
+                "code": 200,
+                "message": [{
+                    "code": 200,
+                    "message": {
+                        "process": "append",
+                        "append": "//workflow/stage[last()-1]/object/proof",
+                        "parent-node": "proof",
+                        "parent-insertafter": "//workflow/stage[last()]/object"
+                    }
+                }]
+            }
+        },
+        "method": "post"
+    }
+]

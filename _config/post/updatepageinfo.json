@@ -1,0 +1,182 @@
+[{
+        "message": "Return success message - Normal article",
+        "status": "200",
+        "url": "/api/updatepageinfo",
+        "data": {
+            "data": {
+                "PAGE_COUNT": "6",
+                "RunOnPagesDetails": {
+                    "bmjsrh-2019-200419": {
+                        "f-page": "1",
+                        "l-page": "7",
+                        "LAYOUT": "LAYOUT1_1",
+                        "page-count": "6"
+                    }
+                },
+                "customer": "bmj",
+                "project": "bmjsrh"
+            },
+            "apiKey": "cde4c89b-e452-4ba5-b493-01c691033b72"
+        },
+        "param": {
+            "key": "bmjsrh-2019-200419.result",
+            "parameters": [{
+                "name": "status",
+                "type": "object"
+            }, {
+                "name": "message",
+                "type": "object"
+            }]
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return success message - Normal article",
+        "status": "200",
+        "url": "/api/updatepageinfo",
+        "data": {
+            "data": {
+                "BLK_BX1": "1",
+                "BLK_T1": "3",
+                "BLK_F1": "4",
+                "BLK_F2": "5",
+                "BLK_F3": "5",
+                "BLK_T2": "6",
+                "BLK_F4": "6",
+                "baseAlignMissingPageDetails": {},
+                "floatPlacementMissing": [],
+                "entityMissing": [],
+                "fontMissing": [],
+                "tableCellOverflow": [],
+                "docOverset": [],
+                "newStyleAddition": {
+                    "pStyle": [],
+                    "cStyle": ["jrnlPartLabel,jrnlTblFNRef,jrnlCountry,jrnlSupplRef,RefELocation"],
+                    "tableStyle": [],
+                    "cellStyle": []
+                },
+                "PAGE_COUNT": "7.1",
+                "FPAGE": "1",
+                "LPAGE": "8",
+                "RunOnPagesDetails": {
+                    "annrheumdis-2019-216343": {
+                        "f-page": "1",
+                        "l-page": "8",
+                        "LAYOUT": "LAYOUT1_1",
+                        "pdf-type": "article",
+                        "page-count": "7.1"
+                    }
+                },
+                "customer": "bmj",
+                "project": "annrheumdis"
+            },
+            "apiKey": "cde4c89b-e452-4ba5-b493-01c691033b72"
+        },
+        "param": {
+            "key": "annrheumdis-2019-216343.result",
+            "parameters": [{
+                "name": "status",
+                "type": "object"
+            }, {
+                "name": "message",
+                "type": "object"
+            }]
+        },
+        "method": "post"
+    },
+
+
+    {
+        "message": "Return success message if we passed the exact parametes- (sub-article)",
+        "status": "200",
+        "url": "/api/updatepageinfo",
+        "data": {
+            "data": {
+                "BLK_F1": "2",
+                "BLK_F2": "2",
+                "docBaseAlignDetails": {
+                    "page_2": [
+                        0,
+                        0
+                    ],
+                    "page_3": [
+                        0,
+                        0
+                    ]
+                },
+                "baseAlignCertified": true,
+                "allFloatsFound": true,
+                "noEntityMissing": true,
+                "noFontMissing": true,
+                "noTableCellOverFlowFound": true,
+                "nooverflow": true,
+                "PAGE_COUNT": "2.5",
+                "FPAGE": "1",
+                "LPAGE": "3",
+                "RunOnPagesDetails": {
+                    "edpract-2019-317654": {
+                        "f-page": "1",
+                        "l-page": "3",
+                        "LAYOUT": "LAYOUT2_1",
+                        "page-count": "2.7",
+                        "pdf-type": "article"
+                    },
+                    "10.1136/edpract-2019-317654.01": {
+                        "f-page": "1",
+                        "l-page": "3",
+                        "LAYOUT": "LAYOUT2_2",
+                        "page-count": "3",
+                        "pdf-type": "sub-article"
+                    }
+                },
+                "customer": "bmj",
+                "project": "edpract"
+            },
+            "apiKey": "cde4c89b-e452-4ba5-b493-01c691033b72"
+        },
+        "expectedOutput": {
+            "edpract-2019-317654": {
+                "status": 200,
+                "result": {
+                    "status": {
+                        "code": 200,
+                        "message": "success"
+                    },
+                    "message": {
+                        "code": 200,
+                        "message": [{
+                                "code": 200,
+                                "message": {
+                                    "process": "update",
+                                    "update": "//article/front/article-meta/fpage",
+                                    "append": "//article/front/article-meta"
+                                }
+                            },
+                            {
+                                "code": 200,
+                                "message": {
+                                    "process": "update",
+                                    "update": "//article/front/article-meta/lpage",
+                                    "append": "//article/front/article-meta"
+                                }
+                            },
+                            {
+                                "code": 200,
+                                "message": {
+                                    "process": "update",
+                                    "update": "//article/front/article-meta/counts/page-count",
+                                    "append": "//article/front/article-meta/counts"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "10.1136/edpract-2019-317654.01": {
+                "status": 500,
+                "result": "Nothing to update"
+            }
+        },
+        "method": "post"
+    }
+]

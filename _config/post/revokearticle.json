@@ -1,0 +1,55 @@
+[{
+        "message": "Return error message when stage name is missing",
+        "status": "200",
+        "url": "/api/revokearticle?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjo-test-27June",
+            "stageName": ""
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 204,
+                "message": "Could not access article"
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error message when Authentication is not given",
+        "status": "401",
+        "url": "/api/revokearticle",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2018-312811",
+            "stageName": "Author Review"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Retrun error when article is opened by author",
+        "status": "200",
+        "url": "/api/revokearticle?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2018-312810",
+            "stageName": "Author Review"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 204,
+                "message": "Unable to revoke access as the Author is currently working on the article"
+            }
+        },
+        "method": "post"
+    }
+]

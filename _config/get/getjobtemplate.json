@@ -1,0 +1,459 @@
+[{
+        "message": "Don't return article file when project name not given",
+        "status": "400",
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "Could not get article from database"
+            },
+            "step": "add job"
+        },
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when customer name not given",
+        "status": "400",
+        "expectedOutput": {
+            "status": {
+                "code": "400",
+                "message": "{\"status\":500,\"message\":\"Missing project or client parameters\"}"
+            },
+            "step": "add job"
+        },
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&project=thoraxjnl",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bjophthalmol",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bjophthalmol.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bjophthalmol.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for annrheumdis",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=annrheumdis",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/annrheumdis.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/annrheumdis.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bjsports",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bjsports",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bjsports.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bjsports.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjdrc",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjdrc",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjdrc.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjdrc.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjgast",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjgast",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjgast.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjgast.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjinnov",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjinnov",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjinnov.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjinnov.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjresp",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjresp",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjresp.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjresp.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjspcare",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjspcare",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjspcare.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjspcare.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjsrh",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjsrh",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjsrh.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjsrh.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjsem",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjsem",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjsem.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjsem.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjqs",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjqs",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjqs.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjqs.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for edpract",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=edpract",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/edpract.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/edpract.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for ebmental",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=ebmental",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/ebmental.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/ebmental.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for ebnurs",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=ebnurs",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/ebnurs.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/ebnurs.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for ejhpharm",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=ejhpharm",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/ejhpharm.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/ejhpharm.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for emermed",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=emermed",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/emermed.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/emermed.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for flgastro",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=flgastro",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/flgastro.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/flgastro.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for gpsych",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=gpsych",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/gpsych.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/gpsych.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for gutjnl",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=gutjnl",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/gutjnl.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/gutjnl.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for heartjnl",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=heartjnl",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/heartjnl.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/heartjnl.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for heartasia",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=heartasia",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/heartasia.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/heartasia.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for ijgc",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=ijgc",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/ijgc.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/ijgc.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for injuryprev",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=injuryprev",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/injuryprev.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/injuryprev.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for jclinpath",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=jclinpath",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/jclinpath.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/jclinpath.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for jech",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=jech",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/jech.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/jech.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for jmedgenet",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=jmedgenet",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/jmedgenet.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/jmedgenet.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for jnnp",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=jnnp",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/jnnp.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/jnnp.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for jramc",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=jramc",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/jramc.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/jramc.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for leader",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=leader",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/leader.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/leader.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for dtb",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=dtb",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/dtb.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/dtb.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjpo",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjpo",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjpo.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjpo.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjoq",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjoq",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjoq.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjoq.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for fmch",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=fmch",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/fmch.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/fmch.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for rapm",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=rapm",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/rapm.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/rapm.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjophth",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjophth",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjophth.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjophth.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for esmoopen",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=esmoopen",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/esmoopen.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/esmoopen.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for practneurol",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=practneurol",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/practneurol.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/practneurol.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for bmjgh",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=bmjgh",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/bmjgh.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/bmjgh.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for wjps",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=wjps",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/wjps.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/wjps.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for vetreccr",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=vetreccr",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/vetreccr.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/vetreccr.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for tsaco",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=tsaco",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/tsaco.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/tsaco.html",
+        "method": "get"
+    }, {
+        "message": "Return article file as JSON for thoraxjnl",
+        "status": "200",
+        "url": "/api/getjobtemplate/?apiKey={APIKEY}&customer=bmj&project=thoraxjnl",
+        "xpath_name": {
+            "remove_notes": ["//start-date", "//end-date", "//created", "//content", "//custom-meta[meta-name[.='Job Loaded At']]//meta-value", "//permissions"],
+            "fileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/thoraxjnl.html"
+        },
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getjobtemplate/actual/thoraxjnl.html",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when authenticaion not given",
+        "status": "401",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "url": "/api/getjobtemplate/",
+        "method": "get"
+    }
+]

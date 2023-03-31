@@ -1,0 +1,80 @@
+[{
+        "message": "Return article file as JSON for bmjdrc-2018-000549",
+        "status": "200",
+        "url": "/api/getarticle/?apiKey={APIKEY}&customer=bmj&project=bmjdrc&doi=bmjdrc-2018-000549",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getarticle/bmjdrc-2018-000549.json",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getarticle/actual/bmjdrc-2018-000549.json",
+
+        "method": "get"
+    },
+    {
+        "message": "Return article file as JSON for annrheumdis-2015-208094corr1",
+        "status": "200",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getarticle/annrheumdis-2015-208094corr1.json",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getarticle/actual/annrheumdis-2015-208094corr1.json",
+
+        "url": "/api/getarticle/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2015-208094corr1",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when authenticaion not given",
+        "status": "401",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "url": "/api/customers/",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when customer name is not given",
+        "status": "200",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer id, project id, xpath) is/are not provided."
+            }
+        },
+        "url": "/api/getarticle/?apiKey={APIKEY}&project=bmjdrc&doi=bmjdrc-2018-000549",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when project name is not given",
+        "status": "200",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer id, project id, xpath) is/are not provided."
+            }
+        },
+        "url": "/api/getarticle/?apiKey={APIKEY}&customer=bmj&doi=bmjdrc-2018-000549",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file when doi is not given",
+        "status": "200",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer id, project id, xpath) is/are not provided."
+            }
+        },
+        "url": "/api/getarticle/?apiKey={APIKEY}&customer=bmj&project=bmjdrc",
+        "method": "get"
+    },
+    {
+        "message": "Don't return article file as JSON for annrheumdis-2015-208094(If the file is not available in database)",
+        "status": "400",
+        "url": "/api/getarticle/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2015-208094",
+        "expectedOutput": {
+            "status": {
+                "code": 404,
+                "message": "Internal error"
+            },
+            "message": "Requested file does not exists"
+        },
+        "method": "get"
+    }
+]

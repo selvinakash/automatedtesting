@@ -1,0 +1,108 @@
+[
+    {
+        "message": "update word count with all the parameters with trailing and leading spaces",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2019-313991 "
+        },
+        "method": "post",
+        "expectedOutput": {
+            "domain": 1,
+            "code": 4,
+            "level": 3,
+            "column": 1,
+            "line": 1
+        }
+    },
+    {
+        "message": "update word count with all the parameters",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2018-313771"
+        },
+        "method": "post",
+        "param": {
+            "parameters": [
+                {
+                    "name": "status",
+                    "element": "code",
+                    "type": "number"
+                }
+            ]
+        }
+    },
+    {
+        "message": "return error code with no DOI",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "jnnp"
+        },
+        "expectedOutput": {
+            "status": 500,
+            "content": "Missing project or client parameters"
+        },
+        "method": "post"
+    },
+    {
+        "message": "return error code with no client",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {
+            "project": "jnnp",
+            "doi": "jnnp-2018-318795"
+        },
+        "expectedOutput": {
+            "status": 500,
+            "content": "Missing project or client parameters"
+        },
+        "method": "post"
+    },
+    {
+        "message": "return error code with no project",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "doi": "jnnp-2018-318795"
+        },
+        "expectedOutput": {
+            "status": 500,
+            "content": "Missing project or client parameters"
+        },
+        "method": "post"
+    },
+    {
+        "message": "return error code with empty details",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {
+            "customer": "",
+            "project": "",
+            "doi": ""
+        },
+        "expectedOutput": {
+            "status": 500,
+            "content": "Missing project or client parameters"
+        },
+        "method": "post"
+    },
+    {
+        "message": "return error code with no data",
+        "status": "200",
+        "url": "/api/updatewordcount/?apiKey={APIKEY}",
+        "data": {},
+        "expectedOutput": {
+            "status": 500,
+            "content": "Missing project or client parameters"
+        },
+        "method": "post"
+    }
+]

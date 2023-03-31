@@ -1,0 +1,62 @@
+[{
+    "message": "add notes when user is authenticated",
+    "status": "200",
+    "data": {
+        "content": {
+            "content": "tester",
+            "fullname": "karthick VS",
+            "created": "2019-05-03 13:45:51"
+        },
+        "doi": "bjophthalmol-2019-314081",
+        "customer": "bmj",
+        "project": "bjo",
+        "noteType": "",
+        "notesCount": 6
+    },
+    "url": "/api/save_note?apiKey={APIKEY}",
+    "method": "post",
+    "param": {
+        "parameters": [{
+                "name": "content",
+                "type": "string",
+                "value": "tester"
+            },
+            {
+                "name": "fullname",
+                "type": "string",
+                "value": "karthick VS"
+            }
+        ]
+    }
+},
+{
+    "message": "add notes when user is authenticated",
+    "status": "200",
+    "data": {
+        "content": [{
+            "content": "tester",
+            "fullname": "Vijayakumar Murugan",
+            "created": "2019-05-03 13:45:51"
+        }],
+        "doi": "bjophthalmol-2019-314081",
+        "customer": "bmj",
+        "project": "bjo",
+        "noteType": "",
+        "notesCount": 6
+    },
+    "url": "/api/save_note?apiKey={APIKEY}",
+    "method": "post",
+    "param": {
+        "parameters": [{
+                "name": "content",
+                "type": "string",
+                "value": "tester"
+            },
+            {
+                "name": "fullname",
+                "type": "string",
+                "value": "Vijayakumar Murugan"
+            }
+        ]
+    }
+}]

@@ -1,0 +1,31 @@
+[{
+        "message": "Return success message if we passed exact parametes like customer, project and doi",
+        "status": "200",
+        "url": "/api/convertwordtohtml?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bmjoq",
+            "doi": "bmjoq-2018-000546"
+        },
+        "param": {
+            "parameters": [{
+                "name": "status",
+                "type": "object"
+            }, {
+                "name": "message",
+                "type": "object"
+            }]
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return data if we not pass all the required parameters like customer, project, doi",
+        "status": "502",
+        "url": "/api/convertwordtohtml?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "doi": "bmjoq-2018-000546"
+        },
+        "method": "post"
+    }
+]

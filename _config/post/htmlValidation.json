@@ -1,0 +1,879 @@
+[
+{
+    "message": "Return probe validation result for - bjophthalmol-2019-315273 (author without affiliation and affiliation duplicated) - Group author. should not through error",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-315273",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+},
+{
+    "message": "Return probe validation result for - emermed-2018-208189 - key message box should not come for Report from the front article type",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "emermed",
+        "doi": "emermed-2018-208189",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/emermed-2018-208189-probe.html",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/emermed-2018-208189-probe.html"
+
+},
+{
+    "message": "Return probe validation result for - 1556984519884308 (License statement - check)",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "inv",
+        "doi": "1556984519884308",
+        "customer": "sage",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/1556984519884308-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/1556984519884308-probe.html"
+}, {
+    "message": "Return probe validation result for - 0003134820919679 - r687:- Space is not allowed either at the beginning or at the end inside Surname or Givennames. r688:- Title 'Hypothesis' followed by an number should required space in between. Please chekc and update it",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "asu",
+        "doi": "0003134820919679",
+        "customer": "sage",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/0003134820919679-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/0003134820919679-probe.html"
+}, {
+    "message": "Return probe validation result for - bmjos-2019-100047 - r687:- Space is not allowed either at the beginning or at the end inside Surname or Givennames. r688:- Title 'Hypothesis' followed by an number should required space in between. Please chekc and update it",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjos",
+        "doi": "bmjos-2019-100047",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/bmjos-2019-100047-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/bmjos-2019-100047-probe.html"
+}, {
+    "message": "Return probe validation result for - 1556984519865484 (iranian universites - check)",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "inv",
+        "doi": "1556984519865484",
+        "customer": "sage",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/1556984519865484-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/1556984519865484-probe.html"
+}, {
+    "message": "Return probe validation result for - ACMI-D-18-00053",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "acmi",
+        "doi": "ACMI-D-18-00053",
+        "customer": "mbs",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/ACMI-D-18-00053-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/ACMI-D-18-00053-probe.html"
+}, {
+    "message": "Return probe validation result for - jech-2019-212245 (twitter '@'symbol)",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "jech",
+        "doi": "jech-2019-212245",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/jech-2019-212245-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/jech-2019-212245-probe.html"
+}, {
+    "message": "Return probe validation result for - rmdopen-2019-001047 (Acknowledment direct text DTD Error)",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "rmdopen",
+        "doi": "rmdopen-2019-001047",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - postgradmedj-2019-136843",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "postgradmedj",
+        "doi": "postgradmedj-2019-136843",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/postgradmedj-2019-136843-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/postgradmedj-2019-136843-probe.html"
+}, {
+    "message": "Return probe validation result for - emermed-2019-209186",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "emermed",
+        "doi": "emermed-2019-209186",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/emermed-2019-209186-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/emermed-2019-209186-probe.html"
+}, {
+    "message": "Return probe validation result for - dmfr.20190205.c - Corrigendum article type should not thrown probe for corees author mandatory",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjr",
+        "doi": "dmfr.20190205.c",
+        "customer": "dmfr",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/dmfr.20190205.c-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/dmfr.20190205.c-probe.html"
+}, {
+    "message": "Return probe validation result for - bjr.20190966 - The first letter followed with hypen and capitalized letter in the section",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjr",
+        "doi": "bjr.20190966",
+        "customer": "bir",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/bjr.20190966-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/bjr.20190966-probe.html"
+}, {
+    "message": "Return probe validation result for - bjr.20190105 - corre author mandatory",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjr",
+        "doi": "bjr.20190105",
+        "customer": "bir",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/bjr.20190105-probe.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/bjr.20190105-probe.html"
+}, {
+    "message": "Return probe validation result for - heartjnl-2018-314574",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "heartjnl",
+        "doi": "heartjnl-2018-314574",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2019-028973",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-028973",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - 0361684320917391",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "pwq",
+        "doi": "0361684320917391",
+        "customer": "sage",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-215427",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215427",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-215868",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215868",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-215962",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-215962",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-216014",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-216014",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-216016",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-216016",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-216028",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-216028",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - annrheumdis-2019-216045",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2019-216045",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bjophthalmol-2019-314355",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314355",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bjophthalmol-2019-314567",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjophthalmol",
+        "doi": "bjophthalmol-2019-314567",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bjsports-2018-100015",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjsports",
+        "doi": "bjsports-2018-100015",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bjsports-2019-100840",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjsports",
+        "doi": "bjsports-2019-100840",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bjsports-2019-100973",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjsports",
+        "doi": "bjsports-2019-100973",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bjsports-2019-101097",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bjsports",
+        "doi": "bjsports-2019-101097",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjdrc-2019-000659",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjdrc",
+        "doi": "bmjdrc-2019-000659",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjdrc-2019-000668 - Trial registration link only for NCT and ISRCTN",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjdrc",
+        "doi": "bmjdrc-2019-000668",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/bmjdrc-2019-000668-probe.html",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/bmjdrc-2019-000668-probe.html"
+}, {
+    "message": "Return probe validation result for - bmjgast-2019-000302",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgast",
+        "doi": "bmjgast-2019-000302",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgast-2019-000314",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgast",
+        "doi": "bmjgast-2019-000314",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgast-2019-000317",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgast",
+        "doi": "bmjgast-2019-000317",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgast-2019-000317",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "dtb",
+        "doi": "DTB-2019-000009",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2018-001295",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2018-001295",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2018-001383",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2018-001383",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2019-001462",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001462",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2019-001475",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001475",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2019-001518",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001518",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2019-001615",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001615",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjgh-2019-001779",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjgh",
+        "doi": "bmjgh-2019-001779",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjnph-2019-000036",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjnph",
+        "doi": "bmjnph-2019-000036",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-025973",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-025973",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-026729",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-026729",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-026773",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-026773",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-026788",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-026788",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-027153",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-027153",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-027251",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-027251",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-027590",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-027590",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-027825",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-027825",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028227",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028227",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028259",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028259",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028261",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028261",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028352",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028352",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028632",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028632",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028646",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028646",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028680",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028680",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028714 - Trial registration link only for NCT and ISRCTN",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028714",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/probevalidation/actual/bmjopen-2018-028714-probe.html",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/bmjopen-2018-028714-probe.html"
+
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028720",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028720",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028843",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028843",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2018-028844",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2018-028844",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2019-028957",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-028957",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2019-028981",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-028981",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}, {
+    "message": "Return probe validation result for - bmjopen-2019-029485",
+    "status": "200",
+    "url": "/api/probevalidation?apiKey={APIKEY}",
+    "data": {
+        "project": "bmjopen",
+        "doi": "bmjopen-2019-029485",
+        "customer": "bmj",
+        "role": "typesetter",
+        "stage": "Typesetter Review"
+    },
+    "method": "post",
+    "fileLocation": "/_testFiles/expectedoutputfiles/probevalidation/output.html"
+}
+]

@@ -1,0 +1,46 @@
+[{
+    "message": "Assign user when user with have login credentials",
+    "param": {
+        "parameters": [{
+            "name": "content",
+            "type": "string"
+        }, {
+            "name": "id",
+            "type": "string"
+        }, {
+            "name": "created",
+            "type": "string"
+        }, {
+            "name": "fullname",
+            "type": "string"
+        }]
+    },
+    "status": "200",
+    "url": "/api/assignuser?apiKey={APIKEY}",
+    "data": {
+        "email": "manager@exeterpremedia.com",
+        "customer": "bmj",
+        "project": "bmjgast",
+        "assign": true,
+        "doi": "bmjgast-2019-000302",
+        "assignedBy": "Manager MM, manager@exeterpremedia.com",
+        "assignTo": "Manager MM, manager@exeterpremedia.com"
+    },
+    "method": "post"
+},
+{
+    "message": "Assign user when project/Customer is not mentioned",
+    "expectedOutput": "{\"status\":{\"code\":404,\"message\":\"Internal error\"},\"message\":\"Requested file does not exists\"}",
+    "status": "403",
+    "url": "/api/assignuser?apiKey={APIKEY}",
+    "data": {
+        "email": "manager@exeterpremedia.com",
+        "customer": "bmj",
+        "assign": true,
+        "doi": "bmjgast-2019-000302",
+        "assignedBy": "Manager MM, manager@exeterpremedia.com",
+        "assignTo": "Manager MM, manager@exeterpremedia.com"
+    },
+    "method": "post"
+}
+]

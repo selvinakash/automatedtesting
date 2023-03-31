@@ -1,0 +1,71 @@
+[           
+    {
+        "message": "Load article ijgc-2018-000124",       
+        "status" : "400",
+        "url" : "/workflow?currStage=parseEmail",
+        "data" :{            
+            "customer": "bmj",
+            "project": "ijgc",
+            "doi": "ijgc-2018-000124",
+            "ftpFileName": "ijgc-2018-000124",
+            "articleTitle": "articleTitle",
+            "articleType": "articleType",
+            "subject": "field",
+            "specialInstructions": "specialInstructions",
+            "priority": "priority",
+            "mandatoryFields": "mandatoryFields",
+            "hasMandatoryData": "hasMandatoryData",
+            "forceLoad": "true",
+            "status": {
+              "code": 200
+            }
+        },
+        "expectedOutput" : {
+          "status": {
+            "code": 400,
+            "message": {
+                "status": {
+                    "code": 500,
+                    "message": "Job already exists and is in Awaiting files stage"
+                },
+                "step": "add job"
+            }
+        }
+      },
+        "method" : "post"
+    },{
+      "message": "Load article ijgc-2018-000150",       
+      "status" : "400",
+      "url" : "/workflow?currStage=parseEmail",
+      "data" :{            
+          "customer": "bmj",
+          "project": "ijgc",
+          "doi": "ijgc-2018-000150",
+          "ftpFileName": "ijgc-2018-000150",
+          "articleTitle": "articleTitle",
+          "articleType": "articleType",
+          "subject": "field",
+          "specialInstructions": "specialInstructions",
+          "priority": "priority",
+          "mandatoryFields": "mandatoryFields",
+          "hasMandatoryData": "hasMandatoryData",
+          "forceLoad": "true",
+          "status": {
+            "code": 200
+          }
+      },
+      "expectedOutput" : {
+        "status": {
+          "code": 400,
+          "message": {
+              "status": {
+                  "code": 500,
+                  "message": "Job already exists and is in Awaiting files stage"
+              },
+              "step": "add job"
+          }
+      }
+    },
+      "method" : "post"
+   } 
+] 

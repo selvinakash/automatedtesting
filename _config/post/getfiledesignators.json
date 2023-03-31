@@ -1,0 +1,87 @@
+[{
+        "message": "Return files for the article annrheumdis-2019-215211- ALL files",
+        "status": "200",
+        "url": "/api/getfiledesignators?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2019-215211",
+            "process": "get"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/getfiledesignators/annrheumdis-2019-215211_get.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getfiledesignators/actual/annrheumdis-2019-215211_get.html",
+        "method": "post"
+    }, {
+        "message": "Return files for the article annrheumdis-2019-215211 - Resources",
+        "status": "200",
+        "url": "/api/getfiledesignators?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "doi": "annrheumdis-2019-215211",
+            "process": "resource"
+        },
+        "fileLocation": "/_testFiles/expectedoutputfiles/getfiledesignators/annrheumdis-2019-215211_process.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/getfiledesignators/actual/annrheumdis-2019-215211_process.html",
+        "method": "post"
+    }, {
+        "message": "Return error Code when project Name is not there",
+        "status": "200",
+        "url": "/api/getfiledesignators?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "doi": "bmjdrc-2018-000550",
+            "process": "get"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "content": "ERROR : file read error in AWS"
+        },
+        "method": "post"
+    }, {
+        "message": "Return error Code when DOI is not there",
+        "status": "200",
+        "url": "/api/getfiledesignators?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "annrheumdis",
+            "process": "get"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "content": "ERROR : file read error in AWS"
+        },
+        "method": "post"
+    }, {
+        "message": "Return error Code when customer is not there",
+        "status": "200",
+        "url": "/api/getfiledesignators?apiKey={APIKEY}",
+        "data": {
+            "doi": "bmjdrc-2018-000550",
+            "project": "bmjdrc",
+            "process": "get"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "content": "ERROR : file read error in AWS"
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error message when authentication not given",
+        "status": "401",
+        "url": "/api/getfiledesignators",
+        "data": {
+            "customer": "bmj",
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000550"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "post"
+    }
+]

@@ -1,0 +1,98 @@
+[{
+        "message": "Assign copy editor when pass actual parameters",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "data received",
+                "data": "{\"msID\":\"bmjnph-2019-000030\",\"accountID\":40,\"service\":\"Copyediting\",\"quantity\":\"5718\",\"vendorMailID\":\"cetest3@exeterpm.com\",\"userName\":\"Copyeditor 3\",\"pageCount\":23}\"}"
+            }
+        },
+        "status": "200",
+        "url": "/workflow?currStage=copyeditingManager",
+        "data": {
+            "email": "cetest.m@exeterpm.com",
+            "customer": "bmj",
+            "project": "bmjnph",
+            "assign": true,
+            "doi": "bmjnph-2019-000030",
+            "assignedBy": "Copyeditor M, cetest.m@exeterpm.com",
+            "assignTo": "Copyeditor 3, cetest3@exeterpm.com",
+            "assignType": "Assigned",
+            "wordCount": "6802",
+            "skillLevel": "expert",
+            "wordCountWithoutRef": "5718",
+            "copyeditingProcess" : true,
+            "status": {
+                "code": 200,
+                "message": "Added successfully"
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error message when article is already assigned to another copy editor",
+        "expectedOutput": {
+            "status": {
+                "code": 400,
+                "message": {
+                    "status": {
+                        "code": 500,
+                        "message": "This article has been assigned to someone.\nPlease click <b><i class=\"fa fa-refresh\" aria-hidden=\"true\"></i></b> icon"
+                    }
+                }
+            }
+        },
+        "status": "400",
+        "url": "/workflow?currStage=copyeditingManager",
+        "data": {
+            "email": "cetest.m@exeterpm.com",
+            "customer": "bmj",
+            "project": "bmjnph",
+            "assign": true,
+            "doi": "bmjnph-2019-000030",
+            "assignedBy": "Copyeditor M, cetest.m@exeterpm.com",
+            "assignTo": "Copyeditor 2, cetest2@exeterpm.com",
+            "assignType": "Assigned",
+            "pageCount": "2",
+            "accessLevel": "vendor",
+            "skillLevel": "expert",
+            "wordCountWithoutRef": "1250",
+            "status": {
+                "code": 200,
+                "message": "Added successfully"
+            }
+        },
+        "method": "post"
+    },{
+        "message": "Unassign the copyediting stage article",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "data received",
+                "data": "{\"msID\":\"bmjnph-2019-000030\",\"process\":\"reject\",\"userName\":\"Copyeditor 3\",\"reason\":\"Test to reject PO\"}"
+            }
+        },
+        "status": "200",
+        "url": "/workflow?currStage=copyeditingManager",
+        "data": {
+            "email": "",
+            "customer": "bmj",
+            "project": "bmjnph",
+            "assign": false,
+            "doi": "bmjnph-2019-000030",
+            "assignedBy": "Copyeditor M, cetest.m@exeterpm.com",
+            "assignTo": "",
+            "assignType": "Unassigned",
+            "pageCount": "6",
+            "skillLevel": "",
+            "to" : "",
+            "wordCountWithoutRef": "5718",
+            "wordCount": "6802",
+            "status": {
+                "code": 200,
+                "message": "Added successfully"
+            }
+        },
+        "method": "post"
+    }
+]

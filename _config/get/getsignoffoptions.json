@@ -1,0 +1,78 @@
+[{
+    "message": "Return all sign-off options when user with have login credentials and customer is BMJ and project is bjo",
+    "status": "200",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&currStage=publishercheck",
+    "fileLocation" : "/_testFiles/expectedoutputfiles/getsignoffoptions/",
+    "method": "get"
+},
+{
+    "message": "Return all sign-off options when user with have login credentials and customer is BIR and project is bjr",
+    "status": "200",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=bir&project=bjr&CurrStage=copyediting",
+    "fileLocation" : "/_testFiles/expectedoutputfiles/getsignoffoptions/BIRoutput.html",
+    "method": "get"
+},
+{
+    "message": "Return all sign-off options when user with have login credentials and customer is SAGE and project is etp",
+    "status": "200",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=sage&project=etp",
+    "fileLocation" : "/_testFiles/expectedoutputfiles/getsignoffoptions/SAGEoutput.html",
+    "method": "get"
+},{
+    "message": "Return all sign-off options when user with have login credentials and customer is CABI and project is cabi",
+    "status": "200",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=cabi&project=cabi",
+    "fileLocation" : "/_testFiles/expectedoutputfiles/getsignoffoptions/CABIoutput.html",
+    "method": "get"
+},{
+    "message": "Return all sign-off options when user with have login credentials and customer is Stylus and project is heyl_the_senior_international_officer_as_change_agent",
+    "status": "200",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=stylus&project=heyl_the_senior_international_officer_as_change_agent",
+    "fileLocation" : "/_testFiles/expectedoutputfiles/getsignoffoptions/STYLUSoutput.html",
+    "method": "get"
+},
+{
+    "message": "Return all sign-off options when user with have login credentials and customer is SAGE_BOOKS and project is berman",
+    "status": "200",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=sage_books&project=berman",
+    "fileLocation" : "/_testFiles/expectedoutputfiles/getsignoffoptions/SAGE_BOOKSoutput.html",
+    "method": "get"
+},
+{
+    "message": "Return Error when project is not defined",
+    "status": "400",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=bmj",
+    "expectedOutput": {
+        "status": {
+            "code": "400",
+            "message": "Project not found"
+        },
+        "step": "add stage"
+    },
+    "method": "get"
+},
+{
+    "message": "Return Error when current stage is not defined",
+    "status": "400",
+    "url": "/api/getsignoffoptions?apiKey={APIKEY}&customer=bmj&project=bjophthalmol",
+    "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+    "method": "get"
+},
+{
+    "message": "Return user data when user without have login credentials",
+    "status": "401",
+    "url": "/api/getuserdata",
+    "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+    "method": "get"
+}
+]

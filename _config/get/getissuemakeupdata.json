@@ -1,0 +1,57 @@
+[{
+    "url": "/api/getissuemakeupdata/?apiKey={APIKEY}&customerName=bmj&projectName=bjophthalmol",
+    "status": "200",
+    "message": "Return issue data when we pass the customername and project",
+    "method": "get",
+    "param": {
+        "key": "hits.hits",
+        "parameters": [{
+                "name": "_index",
+                "type": "string"
+            },
+            {
+                "name": "_score",
+                "type": "number"
+            },
+            {
+                "name": "_type",
+                "type": "string"
+            },
+            {
+                "name": "_source",
+                "type": "Object"
+            },
+            {
+                "name": "_id",
+                "type": "string"
+            }
+        ]
+    }
+},
+{
+    "url": "/api/getissuemakeupdata/?apiKey={APIKEY}&projectName=bjophthalmol",
+    "status": "400",
+    "message": "Return Error when we not passed the customer name",
+    "method": "get",
+    "expectedOutput": "Customer is missing"
+},{
+    "url": "/api/getissuemakeupdata/?apiKey={APIKEY}&customerName=bmj",
+    "status": "400",
+    "message": "Return Error when we not passed the Project name",
+    "method": "get",
+    "expectedOutput": "Project is missing"
+
+},
+{
+    "url": "/api/getissuemakeupdata/?customer=bmj&project=bjophthalmol",
+    "status": "401",
+    "message": "Reference modal is getting or not when authentication is not given",
+    "method": "get",
+    "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        }
+}
+]

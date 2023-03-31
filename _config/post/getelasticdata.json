@@ -1,0 +1,100 @@
+[{
+        "message": "Return date when we pass the exact parameter like table, index and data",
+        "status": "200",
+        "url": "/api/getelasticdata",
+        "data": {
+            "table": "article",
+            "index": "dev",
+            "data": [{
+                    "name": "corresp-info.name.email.keyword",
+                    "value": "anuraja@exeterpremedia.com"
+                },
+                [{
+                        "name": "corresp-info.name.email.keyword",
+                        "value": "anuraja@exeterpremedia.com"
+                    },
+                    {
+                        "name": "corresp-info.name.email.keyword",
+                        "value": "anuraja@exeterpremedia.com"
+                    }
+                ]
+            ],
+            "apiKey": "0e78ffad-4705-414b-836e-b6893ab3abc6"
+        },
+        "expectedOutput": {
+            "total": 0,
+            "max_score": null,
+            "hits": []
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error message when we not passed the index",
+        "status": "400",
+        "url": "/api/getelasticdata",
+        "data": {
+            "table": "article",
+            "data": [{
+                    "name": "corresp-info.name.email.keyword",
+                    "value": "anuraja@exeterpremedia.com"
+                },
+                [{
+                        "name": "corresp-info.name.email.keyword",
+                        "value": "anuraja@exeterpremedia.com"
+                    },
+                    {
+                        "name": "corresp-info.name.email.keyword",
+                        "value": "anuraja@exeterpremedia.com"
+                    }
+                ]
+            ],
+            "apiKey": "0e78ffad-4705-414b-836e-b6893ab3abc6"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "message": "Missing parameters (table or index or data)"
+        },
+        "method": "post"
+    }, {
+        "message": "Return error message when we not passed the table",
+        "status": "400",
+        "url": "/api/getelasticdata",
+        "data": {
+            "index": "dev",
+            "data": [{
+                    "name": "corresp-info.name.email.keyword",
+                    "value": "anuraja@exeterpremedia.com"
+                },
+                [{
+                        "name": "corresp-info.name.email.keyword",
+                        "value": "anuraja@exeterpremedia.com"
+                    },
+                    {
+                        "name": "corresp-info.name.email.keyword",
+                        "value": "anuraja@exeterpremedia.com"
+                    }
+                ]
+            ],
+            "apiKey": "0e78ffad-4705-414b-836e-b6893ab3abc6"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "message": "Missing parameters (table or index or data)"
+        },
+        "method": "post"
+    }, {
+        "message": "Return error message when we not passed the data",
+        "status": "400",
+        "url": "/api/getelasticdata",
+        "data": {
+            "table": "article",
+            "index": "dev",
+            "apiKey": "0e78ffad-4705-414b-836e-b6893ab3abc6"
+        },
+        "expectedOutput": {
+            "status": 400,
+            "message": "Missing parameters (table or index or data)"
+        },
+        "method": "post"
+    }
+]

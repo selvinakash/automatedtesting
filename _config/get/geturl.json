@@ -1,0 +1,22 @@
+[{
+    "message": "when validate key is null and valid url given with http extension",
+    "url": "/api/geturl/?apiKey={APIKEY}&url=http://www.google.com&validate=true",
+    "expectedOutput": "true",
+    "status" : "200",
+    "method" : "get"
+},
+{
+    "message": "when validate key is null and valid url given with https extension",
+    "url": "/api/geturl/?apiKey={APIKEY}&url=https://www.google.com&validate=true",
+    "expectedOutput": "true",
+    "status" : "200",
+    "method" : "get"
+},
+{
+    "message": "when validate key is null and valid url given with no extension",
+    "url": "/api/geturl/?apiKey={APIKEY}&url=www.google.com&validate=true",
+    "expectedOutput": "false",
+    "status" : "200",
+    "method" : "get"
+}
+]

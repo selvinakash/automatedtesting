@@ -1,0 +1,36 @@
+[{
+        "message": "Return related articles list",
+        "status": "200",
+        "url": "/api/search_related_article?apiKey={APIKEY}",
+        "data": "<search><field data-class='jrnlRelArtDOI'>bmjopen-2018-024098</field></search>",
+        "fileLocation": "/_testFiles/expectedoutputfiles/search_related_article/result.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/search_related_article/actual/result.html",
+        "method": "post"
+    },
+    {
+        "message": "Return error when input data is missing",
+        "status": "200",
+        "url": "/api/search_related_article?apiKey={APIKEY}",
+        "data": "",
+        "expectedOutput": "ERROR:Input Data missing",
+        "method": "post"
+    },
+    {
+        "message": "Return error when user not authorized",
+        "status": "401",
+        "url": "/api/search_related_article",
+        "data": {
+            "customer": "ima",
+            "project": "ijm",
+            "doi": "ijm-00001"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "post"
+
+    }
+]

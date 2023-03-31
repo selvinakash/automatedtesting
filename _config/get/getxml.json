@@ -1,0 +1,25 @@
+[{
+        "url": "/api/getxml/?apiKey={APIKEY}&doi=annrheumdis-2018-214280&customer=bmj&project=annrheumdis&xmltype=raw",
+        "status": "200",
+        "message": "check status - xml is download",
+        "method": "get"
+    },
+    {
+        "url": "/api/getxml/?apiKey={APIKEY}&doi=annrheumdis-2018-214280&customer=bmj&xmltype=raw",
+        "status": "200",
+        "message": "check status - xml is download",
+        "method": "get"
+    }, {
+        "message": "Return Error message when file is not there in DB",
+        "method": "get",
+        "status": "200",
+        "url": "/api/getxml/?apiKey={APIKEY}&doi=annrheumdis-2018-2343s&customer=bmj&project=annrheumdis&xmltype=raw",
+        "expectedOutput": {
+            "status": {
+                "code": 404,
+                "message": "Internal error"
+            },
+            "message": "Requested file does not exists"
+        }
+    }
+]

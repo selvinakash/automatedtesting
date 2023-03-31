@@ -1,0 +1,25 @@
+[
+    {
+        "message": "Return success message if we passed the customer",
+        "status": "200",
+        "url": "/api/generatecustomconfig?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj"
+        },
+        "expectedOutput": {
+            "message": "bmj created"
+        },
+        "method": "post"
+    },{
+        "message": "Return Error message if we passed the invalid customer",
+        "status": "200",
+        "url": "/api/generatecustomconfig?apiKey={APIKEY}",
+        "data": {
+            "customer": "sabari"
+        },
+        "expectedOutput": {
+            "message": "sabari Config not found"
+        },
+        "method": "post"
+    }
+]

@@ -1,0 +1,20 @@
+[{
+    "url": "/api/uploadxml/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&doi=bjophthalmol_103_2&returnType=xml",
+    "status": "200",
+    "message": "Return success message",
+    "method": "post",
+    "FormData" : true,
+    "data" : {
+        "customer": "bmj",
+        "project": "vetreccr",
+        "doi": "vetreccr-2018-000809",
+        "comment" : "test",
+        "xmlfile" : {
+            "name" : "vetreccr-2018-000809.xml",
+            "size" : "139535",
+            "type" : "text/xml"
+        }
+    },
+    "expectedOutput": "File upload successfully"
+}
+]

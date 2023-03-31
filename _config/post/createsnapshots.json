@@ -1,0 +1,86 @@
+[{
+        "message": "create Snapshots for the article bmjdrc-2018-000550",
+        "status": "200",
+        "url": "/api/createsnapshots/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000550"
+        },
+        "param": {
+            "key": "status",
+            "parameters": [{
+                    "name": "code",
+                    "type": "number",
+                    "value": 200
+                },
+                {
+                    "name": "message",
+                    "type": "string",
+                    "value": "Snapshots created successfully"
+                }
+            ]
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return error when customer name is not given",
+        "status": "200",
+        "url": "/api/createsnapshots/?apiKey={APIKEY}",
+        "data": {
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000550"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "One or more of required parameters (customer id, project id, current stage) is/are not provided. Unexpected input"
+            }
+        },        "method": "post"
+    }, {
+        "message": "Return error when project name is not given",
+        "status": "200",
+        "url": "/api/createsnapshots/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "doi": "bmjdrc-2018-000550"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "One or more of required parameters (customer id, project id, current stage) is/are not provided. Unexpected input"
+            }
+        },        "method": "post"
+    }, {
+        "message": "Return error when doi name is not given",
+        "status": "200",
+        "url": "/api/createsnapshots/?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bmjdrc"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "One or more of required parameters (customer id, project id, current stage) is/are not provided. Unexpected input"
+            }
+        },
+        "method": "post"
+    }, {
+        "message": "Return error when authentication is not given",
+        "status": "401",
+        "url": "/api/createsnapshots/",
+        "data": {
+            "customer": "bmj",
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000550"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "post"
+    }
+]

@@ -1,0 +1,164 @@
+[{
+    "message": "Update the elastic log data",
+    "url": "/api/updateelasticlog?apiKey={APIKEY}",
+    "status": "200",
+    "data": {
+        "updateContent": {
+            "logname": "article",
+            "logtype": "save",
+            "logstatus": "failure",
+            "date": "2020-04-09T10:29:26.920Z",
+            "requesturl": "https://testing.kriyadocs.com/review_content/?doi=bmjdrc-2018-000591&customer=bmj&project=bmjdrc",
+            "requestip": "157.51.150.161",
+            "sitereferrer": "testing.kriyadocs.com",
+            "customer": "bmj",
+            "project": "bmjdrc",
+            "doi": "bmjdrc-2018-000591",
+            "username": "admin",
+            "useremail": "admin@exeterpremedia.com",
+            "logdata": "%3Cdiv%3E%3Cresponse%3ETypeError%3A%20Cannot%20read%20property%20'0'%20of%20null%3C%2Fresponse%3E%3Cpath%3E%2Fresources%2Fsave_failures%2Fbmj%2Fbmjdrc%2Fbmjdrc-2018-000591%2Fbmjdrc-2018-000591_2020_04_09_10_29_26_UTC.xml%3C%2Fpath%3E%3Caction-type%3Emerge-node%3C%2Faction-type%3E%3Coccurrence%3E1%3C%2Foccurrence%3E%3C%2Fdiv%3E",
+            "classification": "test",
+            "status": "yes"
+        },
+        "logId": "i8c-UYABs-Oz4k7QSpsk"
+    },
+    "param": {
+        "parameters": [
+            {
+                "name": "_id",
+                "type": "string",
+                "value": "i8c-UYABs-Oz4k7QSpsk"
+            },
+            {
+                "name": "result",
+                "type": "string",
+                "value": "updated"
+            },
+            {
+                "name": "_seq_no",
+                "type": "number"
+            }
+        ]
+    },
+    "method": "post"
+},{
+        "message": "Return error when logId is not provide",
+        "url": "/api/updateelasticlog?apiKey={APIKEY}",
+        "status": "400",
+        "data": {
+            "updateContent": {
+                "logname": "article",
+                "logtype": "save",
+                "logstatus": "failure",
+                "date": "2020-04-09T10:29:26.920Z",
+                "requesturl": "https://testing.kriyadocs.com/review_content/?doi=bmjdrc-2018-000591&customer=bmj&project=bmjdrc",
+                "requestip": "157.51.150.161",
+                "sitereferrer": "testing.kriyadocs.com",
+                "customer": "bmj",
+                "project": "bmjdrc",
+                "doi": "bmjdrc-2018-000591",
+                "username": "testingautomation",
+                "useremail": "testingautomation@exeterpremedia.com",
+                "logdata": "%3Cdiv%3E%3Cresponse%3ETypeError%3A%20Cannot%20read%20property%20'0'%20of%20null%3C%2Fresponse%3E%3Cpath%3E%2Fresources%2Fsave_failures%2Fbmj%2Fbmjdrc%2Fbmjdrc-2018-000591%2Fbmjdrc-2018-000591_2020_04_09_10_29_26_UTC.xml%3C%2Fpath%3E%3Caction-type%3Emerge-node%3C%2Faction-type%3E%3Coccurrence%3E1%3C%2Foccurrence%3E%3C%2Fdiv%3E",
+                "classification": "test",
+                "status": "yes"
+            }
+        },
+        "expectedOutput": "Log id not found in request",
+        "method": "post"
+    },
+    {
+        "message": "Return error when updateContent is not provide",
+        "url": "/api/updateelasticlog?apiKey={APIKEY}",
+        "status": "400",
+        "data": {
+            "logId": "HU58XnEBKNxx1W9Mw5oP"
+        },
+        "expectedOutput": "Update content not found in request",
+        "method": "post"
+    },
+    {
+        "message": "Update the elastic log data",
+        "url": "/api/updateelasticlog?apiKey={APIKEY}",
+        "status": "200",
+        "data": {
+            "updateContent": {
+                "logname": "article",
+                "logtype": "save",
+                "logstatus": "failure",
+                "date": "2020-04-09T10:29:26.920Z",
+                "requesturl": "https://testing.kriyadocs.com/review_content/?doi=bmjdrc-2018-000591&customer=bmj&project=bmjdrc",
+                "requestip": "157.51.150.161",
+                "sitereferrer": "testing.kriyadocs.com",
+                "customer": "bmj",
+                "project": "bmjdrc",
+                "doi": "bmjdrc-2018-000591",
+                "username": "testingautomation",
+                "useremail": "testingautomation@exeterpremedia.com",
+                "logdata": "%3Cdiv%3E%3Cresponse%3ETypeError%3A%20Cannot%20read%20property%20'0'%20of%20null%3C%2Fresponse%3E%3Cpath%3E%2Fresources%2Fsave_failures%2Fbmj%2Fbmjdrc%2Fbmjdrc-2018-000591%2Fbmjdrc-2018-000591_2020_04_09_10_29_26_UTC.xml%3C%2Fpath%3E%3Caction-type%3Emerge-node%3C%2Faction-type%3E%3Coccurrence%3E1%3C%2Foccurrence%3E%3C%2Fdiv%3E",
+                "classification": "test",
+                "status": "yes"
+            },
+            "logId": "i8c-UYABs-Oz4k7QSpsk"
+        },
+        "param": {
+            "parameters": [
+                {
+                    "name": "_id",
+                    "type": "string",
+                    "value": "i8c-UYABs-Oz4k7QSpsk"
+                },
+                {
+                    "name": "result",
+                    "type": "string",
+                    "value": "updated"
+                },
+                {
+                    "name": "_seq_no",
+                    "type": "number"
+                }
+            ]
+        },
+        "method": "post"
+    },
+    {
+        "message": "Data not updated when same data is triggered again",
+        "url": "/api/updateelasticlog?apiKey={APIKEY}",
+        "status": "200",
+        "data": {
+            "updateContent": {
+                "logname": "article",
+                "logtype": "save",
+                "logstatus": "failure",
+                "date": "2020-04-09T10:29:26.920Z",
+                "requesturl": "https://testing.kriyadocs.com/review_content/?doi=bmjdrc-2018-000591&customer=bmj&project=bmjdrc",
+                "requestip": "157.51.150.161",
+                "sitereferrer": "testing.kriyadocs.com",
+                "customer": "bmj",
+                "project": "bmjdrc",
+                "doi": "bmjdrc-2018-000591",
+                "username": "testingautomation",
+                "useremail": "testingautomation@exeterpremedia.com",
+                "logdata": "%3Cdiv%3E%3Cresponse%3ETypeError%3A%20Cannot%20read%20property%20'0'%20of%20null%3C%2Fresponse%3E%3Cpath%3E%2Fresources%2Fsave_failures%2Fbmj%2Fbmjdrc%2Fbmjdrc-2018-000591%2Fbmjdrc-2018-000591_2020_04_09_10_29_26_UTC.xml%3C%2Fpath%3E%3Caction-type%3Emerge-node%3C%2Faction-type%3E%3Coccurrence%3E1%3C%2Foccurrence%3E%3C%2Fdiv%3E",
+                "classification": "test",
+                "status": "yes"
+            },
+            "logId": "i8c-UYABs-Oz4k7QSpsk"
+        },
+        "param": {
+            "parameters": [
+                {
+                    "name": "_id",
+                    "type": "string",
+                    "value": "i8c-UYABs-Oz4k7QSpsk"
+                },
+                {
+                    "name": "result",
+                    "type": "string",
+                    "value": "noop"
+                }
+            ]
+        },
+        "method": "post"
+    }
+]

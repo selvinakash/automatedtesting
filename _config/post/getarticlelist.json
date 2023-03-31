@@ -1,0 +1,53 @@
+[{
+    "message": "get Article list for bmj customer and copyediting stage",
+    "status": "200",
+    "url": "/api/getarticlelist?apiKey={APIKEY}",
+    "param": {
+        "parameters": [{
+            "name": "total",
+            "type": "number"
+        }, {
+            "name": "hits",
+            "type": "array"
+        }]
+    },
+    "data": {
+        "customer": "bmj",
+        "stageName": "Copyediting",
+        "version": "v2.0",
+        "fromDate": "2019-07-22",
+        "toDate": "2019-07-22",
+        "urlToPost": "getArticleReport",
+        "time_zone": "+05:30"
+    },
+    "method": "post"
+}, {
+    "message": "Return error when customer name is not provided",
+    "status": "400",
+    "url": "/api/getarticlelist?apiKey={APIKEY}",
+    "data": {
+        "stageName": "Copyediting",
+        "version": "v2.0",
+        "fromDate": "2019-07-22",
+        "toDate": "2019-07-22",
+        "urlToPost": "getArticleReport",
+        "time_zone": "+05:30"
+    },
+    "expectedOutput": "Customer is empty",
+    "method": "post"
+}, {
+    "message": "Return error when customer name is  empty",
+    "status": "400",
+    "url": "/api/getarticlelist?apiKey={APIKEY}",
+    "data": {
+        "customer": " ",
+        "stageName": "Copyediting",
+        "version": "v2.0",
+        "fromDate": "2019-07-22",
+        "toDate": "2019-07-22",
+        "urlToPost": "getArticleReport",
+        "time_zone": "+05:30"
+    },
+    "expectedOutput": "Customer is empty",
+    "method": "post"
+}]

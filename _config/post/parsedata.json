@@ -1,0 +1,55 @@
+[{
+        "message": "parse reference when user is authenticated",
+        "status": "200",
+        "data": {
+            "data": "<editreference><parse>Brown DM, Campochiaro PA, Bhisitkul RB, et al. Sustained benefits from ranibizumab for macular edema following branch retinal vein occlusion: 12-month outcomes of a phase III study. Ophthalmology 2011;118:1594–602.10.1016/j.ophtha.2011.02.022</parse></editreference>",
+            "format": "html",
+            "processType": "editReference",
+            "type": "parseReference"
+        },
+        "url": "/api/process_reference?apiKey={APIKEY}",
+        "method": "post",
+        "param": {
+            "parameters": [{
+                "name": "body",
+                "type": "string",
+                "value": "\n Structuring Reference 0 of 1<response><p><span class=\"RefAuthor\"><span class=\"RefSurName\">Brown</span> <span class=\"RefGivenName\">DM</span></span>, <span class=\"RefAuthor\"><span class=\"RefSurName\">Campochiaro</span> <span class=\"RefGivenName\">PA</span></span>, <span class=\"RefAuthor\"><span class=\"RefSurName\">Bhisitkul</span> <span class=\"RefGivenName\">RB</span></span>, <span class=\"RefEtal\">et al</span>. <span class=\"RefArticleTitle\">Sustained benefits from ranibizumab for macular edema following branch retinal vein occlusion: 12-month outcomes of a phase III study</span>. <span class=\"RefJournalTitle\">Ophthalmology</span> <span class=\"RefYear\">2011</span>;<span class=\"RefVolume\">118</span>:<span class=\"RefFPage\">1594</span>–<span class=\"RefLPage\">602</span>.<span class=\"RefDOI\">10.1016/j.ophtha.2011.02.022</span></p></response>"
+            }]
+        }
+    }, {
+        "message": "parse authors when user is authenticated",
+        "status": "200",
+        "data": {
+            "authorNodeString": "<p>Andrea Milbourne, Mila Salcedo, Natacha Phoolcharoen, Lois Ramondetta, Stella Dike, Carrie Cameron, Shine Chang, Sanjay Shete, Ernest Hawk, Mary Eiken, Tri Dinh, Edith Welty, Richard Bardin, Calvin Ngalla, Prince Divine, Kathleen Nulah, Pius Tih, Laurie Elit, Alan Waxman, David Greenspan, Michael Hicks, Groesbeck Parham</p>",
+            "classPrefix": "jrnl",
+            "type": "parseAuthors"
+        },
+        "url": "/api/parsedata?apiKey={APIKEY}",
+        "method": "post",
+        "param": {
+            "parameters": [{
+                "name": "body",
+                "type": "string",
+                "value": "<p class=\"jrnlAuthors lastClicked\"><span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Andrea</span> <span class=\"jrnlSurName\">Milbourne</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Mila</span> <span class=\"jrnlSurName\">Salcedo</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Natacha</span> <span class=\"jrnlSurName\">Phoolcharoen</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Lois</span> <span class=\"jrnlSurName\">Ramondetta</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Stella</span> <span class=\"jrnlSurName\">Dike</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Carrie</span> <span class=\"jrnlSurName\">Cameron</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Shine</span> <span class=\"jrnlSurName\">Chang</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Sanjay</span> <span class=\"jrnlSurName\">Shete</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Ernest</span> <span class=\"jrnlSurName\">Hawk</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Mary</span> <span class=\"jrnlSurName\">Eiken</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Tri</span> <span class=\"jrnlSurName\">Dinh</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Edith</span> <span class=\"jrnlSurName\">Welty</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Richard</span> <span class=\"jrnlSurName\">Bardin</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Calvin</span> <span class=\"jrnlSurName\">Ngalla</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Prince</span> <span class=\"jrnlSurName\">Divine</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Kathleen</span> <span class=\"jrnlSurName\">Nulah</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Pius</span> <span class=\"jrnlSurName\">Tih</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Laurie</span> <span class=\"jrnlSurName\">Elit</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Alan</span> <span class=\"jrnlSurName\">Waxman</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">David</span> <span class=\"jrnlSurName\">Greenspan</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Michael</span> <span class=\"jrnlSurName\">Hicks</span></span>, <span class=\"jrnlAuthor\"><span class=\"jrnlGivenName\">Groesbeck</span> <span class=\"jrnlSurName\">Parham</span></span></p>"
+            }]
+        }
+    },
+    {
+        "message": "parse authors when user is authenticated",
+        "status": "200",
+        "data": {
+            "authorNodeString": "",
+            "classPrefix": "jrnl",
+            "type": "parseAuthors"
+        },
+        "url": "/api/parsedata?apiKey={APIKEY}",
+        "method": "post",
+        "param": {
+            "parameters": [{
+                "name": "body",
+                "type": "string",
+                "value": ""
+            }]
+        }
+    }
+]

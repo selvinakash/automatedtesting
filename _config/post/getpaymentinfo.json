@@ -1,0 +1,127 @@
+[{
+        "message": "Return data if we pass all parameters - Just get the status",
+        "status": "200",
+        "url": "/api/getpaymentinfo?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2019-314696",
+            "updateTag": "false"
+        },
+        "method": "post",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": {
+                    "license": "nonOA",
+                    "copyrightStatement": "nonOA",
+                    "paymentMethod": "noapc",
+                    "paymentStatus": "no",
+                    "currentStage": "Pre-editing",
+                    "priority": "",
+                    "holdType": "NoHold",
+                    "holdStatus": "false",
+                    "matchStage": "Pre-editing"
+                }
+            }
+        }
+    }, {
+        "message": "Return data if we pass all parameters - update the data(license, payment method) to the custom-meta tag",
+        "status": "400",
+        "url": "/api/getpaymentinfo?apiKey={APIKEY}",
+        "data": {
+            "customer": "bmj",
+            "project": "bmjmedicine",
+            "doi": "BMJ_2022_7788",
+            "data": {
+                "license": "CC-BY-NC",
+                "paymentMethod": "RightsLink",
+                "paymentStatus": "true"
+            },
+            "currentStage": "Pre-editing",
+            "updateTag": "true"
+        },
+        "method": "post",
+        "expectedOutput": { 
+            "status": {
+                "code": 500,
+                "message": [
+                    {
+                        "code": 500,
+                        "message": {
+                            "process": "update",
+                            "update": "//article//permissions/license",
+                            "content": "CC-BY-NC",
+                            "append": "//article//permissions"
+                        },
+                        "error": {
+                            "domain": 1,
+                            "code": 4,
+                            "level": 3,
+                            "column": 1,
+                            "line": 1
+                        }
+                    },
+                    {
+                        "code": 200,
+                        "message": {
+                            "process": "update",
+                            "update": "//article//permissions/copyright-statement",
+                            "append": "//article//permissions"
+                        }
+                    },
+                    {
+                        "code": 200,
+                        "message": {
+                            "process": "update",
+                            "update": "//article//custom-meta[meta-name[contains(text(),'payment method')]]",
+                            "append": "//article//custom-meta-group"
+                        }
+                    },
+                    {
+                        "code": 200,
+                        "message": {
+                            "process": "update",
+                            "update": "//workflow/priority",
+                            "append": "//workflow"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "message": "Return error if we not passed the customer name",
+        "status": "400",
+        "url": "/api/getpaymentinfo?apiKey={APIKEY}",
+        "data": {
+            "project": "bjophthalmol",
+            "doi": "bjophthalmol-2019-314696",
+            "updateTag": "false"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 500,
+                "message": "One or more of required parameters (customer id, project id) is/are not provided. requested action on stage  cannot be done. Unexpected input"
+            }
+        },
+        "method": "post"
+    },
+    {
+        "message": "Return user data when user without have login credentials",
+        "status": "401",
+        "url": "/api/getpaymentinfo",
+        "data": {
+            "customer": "bmj",
+            "project": "jramc",
+            "doi": "jramc-2019-001187"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "post"
+    }
+]

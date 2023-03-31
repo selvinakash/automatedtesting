@@ -1,0 +1,19 @@
+
+{
+    "baseurl": "/dashboard_new",
+    "editor_test": {
+        "articletotest": [
+            {
+                "customer": "bmj",
+                "project": "bmjdrc",
+                "doi": "bmjdrc-2018-000550"
+            }
+        ],
+        "doiurl_editor_list": "/review_content?doi=bmjdrc-2018-000550&customer=bmj&project=bmjdrc&type=journal"
+    },
+    "fields":{
+        "typehead":"sample appendix",
+        "typeContent":"appendix Content for testing",
+        "typeFootnote":"Sample footnote for testing purpose"
+    }
+}

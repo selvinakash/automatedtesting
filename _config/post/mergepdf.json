@@ -1,0 +1,17 @@
+[{
+    "message": "Generate PDF for the bjophthalmol_103_2",
+    "status": "200",
+    "url": "/api/mergepdf?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bjophthalmol",
+        "volume": "102",
+        "issue": "121",
+        "pdfLinks": [
+            "http://testing.kriyadocs.com/resources/bmj/bjophthalmol/volume_102_issue_121/print/testing.kriyadocs.com/bjophthalmol-2017-311333_print.pdf?method=server",
+            "http://testing.kriyadocs.com/resources/bmj/bjophthalmol/volume_102_issue_121/print/testing.kriyadocs.com/bjophthalmol-2017-311506_print.pdf?method=server"
+        ]
+    },
+    "expectedOutput": "Making temp dir...\nDownloading files...\nDownloading:bjophthalmol-2017-311333_print.pdf\nDownloading:bjophthalmol-2017-311506_print.pdf\nMerging PDF...\nUploading to AWS...\nFile_path:/resources/bmj/bjophthalmol/102_121/print/bjophthalmol_102_121.pdf",
+    "method": "post"
+}]

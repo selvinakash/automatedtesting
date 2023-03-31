@@ -1,0 +1,15 @@
+[{
+    "message": "Transfrom bjophthalmol-2019-314021",
+    "status": "200",
+    "url": "/api/namesforlife?apiKey={APIKEY}",
+    "encode": false,
+    "data": {
+        "customer": "mbs",
+        "project": "ijsem",
+        "doi": "IJSEM-D-19-00388",
+        "content": "/_testFiles/inputfiles/namesforlife/IJSEM-D-19-00388.html"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/namesforlife/IJSEM-D-19-00388.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/namesforlife/actual/IJSEM-D-19-00388.html",
+    "method": "post"
+}]

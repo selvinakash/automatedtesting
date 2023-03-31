@@ -1,0 +1,12 @@
+{
+    "message": "structuring the content - 78909",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "elife",
+        "project": "elife",
+        "doi": "78909"
+    },
+    "checkYear" : "1991", 
+    "method": "post"
+}

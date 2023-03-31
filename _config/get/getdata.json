@@ -1,0 +1,97 @@
+[{
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=openhrt&doi=openhrt-2018-000951&xpath=//journal-meta/journal-title-group",
+        "status": "200",
+        "message": "Return XML when pass the exact parameter like customer/project/doi and xpath - To get journal-title-group value",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2020-218398&xpath=//article/production-notes&bucketName=AIP",
+        "status": "200",
+        "message": "To show the production notes",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-productionNote.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-productionNote.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2020-218398&xpath=//article//article-meta/custom-meta-group/custom-meta[./meta-name[.='proofingEngine']]/meta-value",
+        "status": "200",
+        "message": "To get the custom meta value - proofingEngine",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-custommeta-proofingEngine.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-custommeta-proofingEngine.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2020-218398&xpath=//workflow/stage[last()]",
+        "status": "200",
+        "message": "To get the last stage from the XML",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-laststage.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-laststage.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2020-218398&xpath=//workflow/stage[status[.='in-progress']]",
+        "status": "200",
+        "message": "To get the in-progress stage name",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-inprogressstage.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-inprogressstage.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2020-218398&xpath=//production-notes/note[@type='support'][.//div[@class='issue-data']][last()]",
+        "status": "200",
+        "message": "To get the support category from the production-note",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-supportcategory.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-supportcategory.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=ppl&project=bio&doi=bio_2020_156&xpath=//contrib-group/contrib[@data-version='Original'][@contrib-type='reviewer'][contains(./email,'sudha.murari@gmail.com')]",
+        "status": "200",
+        "message": "To get the reviewer details from the custom-meta",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-reviewerdetails.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-reviewerdetails.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=ppl&project=bio&doi=bio_2020_155&xpath=//workflow/stage[./status[text()='in-progress']]/article-key/key[@live='true'][@email='jagan.exeter@gmail.com']",
+        "status": "200",
+        "message": "To get the article key from the stage tag in the XML",
+        "method": "get",
+        "fileLocation": "/_testFiles/expectedoutputfiles/getdata/getData-articlekey.html",
+        "outputfileLocation":"/_testFiles/expectedoutputfiles/getdata/actual/getData-articlekey.html"
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=annrheumdis&doi=annrheumdis-2020-218398&xpath=//workflow/stage[5]/comments",
+        "status": "200",
+        "message": "To get the comment value inside the stage",
+        "method": "get",
+        "expectedOutput":"<comments>Moved to Support</comments>"
+
+    },
+    {
+        "url": "/api/getdata/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol",
+        "status": "200",
+        "message": "Return Error when we not passed customer/project/doi",
+        "method": "get",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer id, project id, xpath) is/are not provided."
+            }
+        }
+    },
+    {
+        "url": "/api/getdata/?customer=bmj&project=bjophthalmol",
+        "status": "401",
+        "message": "Reference modal is getting or not when authentication is not given",
+        "method": "get",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        }
+    }
+]

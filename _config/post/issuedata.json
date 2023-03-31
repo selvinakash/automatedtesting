@@ -1,0 +1,51 @@
+[{
+        "url": "/api/issuedata/?apiKey={APIKEY}&customer=bmj&project=bjsports&doi=bjsports_103_2&returnType=xml",
+        "status": "200",
+        "message": "Return issue XML when pass the exact parameter like customer, project, doi, returnType",
+        "method": "post",
+        "fileLocation": "/_testFiles/expectedoutputfiles/issuedata/output.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/issuedata/actual/output.html"
+
+    },
+    {
+        "url": "/api/issuedata/?apiKey={APIKEY}&project=bjophthalmol&doi=bjophthalmol_103_2&returnType=xml",
+        "status": "400",
+        "message": "Return Error when we not passed customer/project",
+        "method": "post",
+        "expectedOutput": {
+            "status": {
+                "code": 200,
+                "message": "One or more of required parameters (customer, project, issue filename) is/are not provided."
+            }
+        }
+    },
+    {
+        "url": "/api/issuedata/?apiKey={APIKEY}&customer=bmj&project=bjophthalmol&returnType=xml",
+        "status": "200",
+        "message": "Return data when we not passed Doi",
+        "method": "post",
+        "fileLocation": "/_testFiles/expectedoutputfiles/issuedata/undefinedfileOutput.html",
+        "outputfileLocation": "/_testFiles/expectedoutputfiles/issuedata/actual/undefinedfileOutput.html"
+
+    },
+    {
+        "url": "/api/issuedata/?customer=bmj&project=bjophthalmol&doi=bjophthalmol_103_2&returnType=xml",
+        "status": "401",
+        "message": "Reference modal is getting or not when authentication is not given",
+        "method": "post",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        }
+    }, {
+        "url": "/api/issuedata?apiKey={APIKEY}&type=getReviewConfig&customer=kriya_books",
+        "status": "200",
+        "expectedOutput": {
+            "list": "<review-config><proof-details>\n        <property data-name=\"styleTemplate\">\n            <project name=\"Default\" value=\"/default/styleTemplate.xml\"/>\n            <project name=\"AMA\" value=\"/default/styleTemplate_AMA.xml\"/>\n            <project name=\"ACS\" value=\"/default/styleTemplate_ACS.xml\"/>\n        </property>\n        <property data-name=\"proofConfig-journal-id\">\n            <project name=\"iet_book_156x234\" value=\"iet_book_156x234\" tableSetterConfig=\"/js/review_content/config/customer/kriya_books/iet_book_156x234/indesignAutoPageConfig.js\" tableSetterCSS=\"/css/table_setter/customers/kriya_books/iet_book_156x234/table-config.css\" proofConfig=\"/config/iet_book_156x234/iet_book_156x234_proofConfig.xml\"/>\n\t\t\t<project name=\"kriya_book_5x8\" value=\"kriya_book_5x8\" tableSetterConfig=\"/js/review_content/config/customer/kriya_books/default/indesignAutoPageConfig.js\" tableSetterCSS=\"/css/table_setter/customers/kriya_books/default/table-config.css\" proofConfig=\"/config/kriya_book_5x8/kriya_book_5x8_proofConfig.xml\"/>\n\t\t\t<project name=\"kriya_book_6.772x9.606\" value=\"kriya_book_6.772x9.606\" tableSetterConfig=\"/js/review_content/config/customer/kriya_books/default/indesignAutoPageConfig.js\" tableSetterCSS=\"/css/table_setter/customers/kriya_books/default/table-config.css\" proofConfig=\"/config/kriya_book_6.772x9.606/kriya_book_6.772x9.606_proofConfig.xml\"/>\n\t\t\t<project name=\"kriya_book_5x7.75\" value=\"kriya_book_5x7.75\" tableSetterConfig=\"/js/review_content/config/customer/kriya_books/kriya_book_5x7.75/indesignAutoPageConfig.js\" tableSetterCSS=\"/css/table_setter/customer/kriya_books/kriya_book_5x7.75/table-config.css\" proofConfig=\"/config/kriya_book_5x7.75/kriya_book_5x7.75_proofConfig.xml\"/>\n\t\t\t<project name=\"springer_156x234_a\" value=\"springer_156x234_a\" tableSetterConfig=\"/js/review_content/config/customer/kriya_books/springer_156x234_a/indesignAutoPageConfig.js\" tableSetterCSS=\"/css/table_setter/customer/kriya_books/springer_156x234_a/table-config.css\" proofConfig=\"/config/springer_156x234_a/springer_156x234_a_proofConfig.xml\"/>\n        </property>\n    </proof-details><job-template>\n        <property data-name=\"journal-id\"/>\n        <property data-name=\"bookTitle\"/>\n        <property data-name=\"proNum\"/>\n        <property data-name=\"bookType\"/>\n        <property data-name=\"trimSize\"/>\n        <property data-name=\"layout\"/>\n        <property data-name=\"bookSubTitle\"/>\n        <property data-name=\"corresAuthorDyn\"/>\n        <property data-name=\"authorEmailDyn\"/>\n        <property data-name=\"corresEditorDyn\"/>\n        <property data-name=\"editorEmailDyn\"/>\n        <property data-name=\"corresAuthor\"/>\n        <property data-name=\"corresAuthorEmail\"/>\n        <property data-name=\"corresEditor\"/>\n        <property data-name=\"corresEditorEmail\"/>\n        <property data-name=\"volume\"/>\n        <property data-name=\"edition\"/>\n        <property data-name=\"series\"/>\n        <property data-name=\"pHBISBN\"/>\n        <property data-name=\"pPBISBN\"/>\n        <property data-name=\"eISBN\"/>\n        <property data-name=\"ISSN\"/>\n        <property data-name=\"copyRYear\"/>\n        <property data-name=\"copyRLine\"/>\n        <property data-name=\"estimatePage\"/>\n        <property data-name=\"numOfPage\"/>\n        <property data-name=\"prodEditor\"/>\n        <property data-name=\"comEditor\"/>\n        <property data-name=\"copyEditor\"/>\n        <property data-name=\"proofReader\"/>\n        <property data-name=\"index\"/>\n        <property data-name=\"indexer\"/>\n        <property data-name=\"ref\"/>\n\t\t<property data-name=\"lang\"/>\n\t\t<property data-name=\"styleTemplate\"/>\n\t\t<property data-name=\"proofConfig-journal-id\"/>\n\t</job-template></review-config>"
+        },
+        "message": "getReviewConfig data for kriya_books customer",
+        "method": "post"
+    }
+]

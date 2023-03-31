@@ -1,0 +1,61 @@
+[        
+    {
+        "message": "Return error if we not passed the customer name",        
+        "status" : "200",
+        "url" : "/api/updateuserdata?apiKey={APIKEY}",
+        "data" :{
+            "email" : "manager@exeterpremedia.com",
+            "city" : "salem"
+        },
+        "param": {
+            "parameters": [{
+                "name": "statusCode",
+                "type": "number",
+                "value" : 400
+            }]
+        },
+        "method" : "post"
+    },
+    {
+        "message": "Return error if we provide invalid user",       
+        "status" : "400",
+        "url" : "/api/updateuserdata?apiKey={APIKEY}",
+        "data" :{
+            "email" : "sabar@exeterpremedia.com",
+            "lastName" : "Sridhar",
+            "customerName" : "bmj"
+        },
+        "expectedOutput" : {
+            "message": "user not found"
+        },
+        "method" : "post"
+    },   
+    {
+        "message": "Return user data when user without have login credentials",
+        "status" : "401",
+        "url" : "/api/updateuserdata",
+        "data" :{
+            "email" : "sabarianand.s@exeterpremedia.com",
+            "lastName" : "Sridhar",
+            "customerName" : "bmj"
+        },
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method" : "post"
+    },
+    {
+        "message": "Return data if we pass all parameters",       
+        "status" : "200",
+        "url" : "/api/updateuserdata?apiKey={APIKEY}",
+        "data" :{
+            "email" : "aravind.t@exeterpm.com",
+            "lastName" : "Sridhar",
+            "modifiedData" : true
+        },            
+        "method" : "post"
+    }  
+] 

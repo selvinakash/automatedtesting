@@ -1,0 +1,117 @@
+[{
+        "message": "Return error message when customer is not",
+        "status": "400",
+        "url": "/api/projects/?apiKey={APIKEY}&customer=",
+        "method": "get",
+        "param": {
+            "parameters": [{
+                    "name": "status",
+                    "element": "code",
+                    "value": 404,
+                    "type": "number"
+                },
+                {
+                    "name": "status.message",
+                    "element": "status",
+                    "type": "object"
+                }
+            ]
+        }
+    },
+    {
+        "message": "Return bir projects when customer is there",
+        "url": "/api/projects/?apiKey={APIKEY}&customer=bir",
+        "param": {
+            "key": "_source.projects",
+            "parameters": [{
+                    "name": "fullName",
+                    "type": "string"
+                },
+                {
+                    "name": "jobTemplate",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "styleTemplate",
+                    "type": "string"
+                },
+                {
+                    "name": "workflowTemplate",
+                    "type": "string"
+                },
+                {
+                    "name": "tableSetterConfig",
+                    "type": "string"
+                },
+                {
+                    "name": "proofConfig",
+                    "type": "string"
+                }, {
+                    "name": "tableSetterCSS",
+                    "type": "string"
+                }, {
+                    "name": "componentTemplate",
+                    "type": "string"
+                }, {
+                    "name": "parameters",
+                    "type": "object"
+                }, {
+                    "name": "customCSS",
+                    "type": "string"
+                }
+            ]
+        },
+        "status": "200",
+        "method": "get"
+    },
+    {
+        "message": "Return bmj projects when customer is there",
+        "url": "/api/projects/?apiKey={APIKEY}&customer=bmj",
+        "status": "200",
+        "param": {
+            "key": "_source.projects",
+            "parameters": [{
+                    "name": "fullName",
+                    "type": "string"
+                }, {
+                    "name": "tableSetterConfig",
+                    "type": "string"
+                }, {
+                    "name": "tableSetterCSS",
+                    "type": "string"
+                }, {
+                    "name": "componentTemplate",
+                    "type": "string"
+                },
+                {
+                    "name": "customCSS",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "styleTemplate",
+                    "type": "string"
+                },
+                {
+                    "name": "workflowTemplate",
+                    "type": "string"
+                }
+            ]
+        },
+        "method": "get"
+    },
+    {
+        "message": "Return Null when particular customer is not available",
+        "expectedOutput": "[]",
+        "status": "200",
+        "url": "/api/projects/?apiKey={APIKEY}&customer=BIR",
+        "method": "get"
+    }
+]

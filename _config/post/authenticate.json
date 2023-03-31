@@ -1,0 +1,42 @@
+[{
+        "message": "Return error if we not passed any parameter",
+        "status": "200",
+        "url": "/api/authenticate",
+        "fileLocation": "/_testFiles/expectedoutputfiles/authenticate/notauthenticated.json",
+        "method": "post"
+    },
+    {
+        "message": "Login User when the login is not happen",
+        "status": "200",
+        "url": "/api/authenticate",
+        "data": {
+            "user": "admin@exeterpremedia.com",
+            "pass": "admin"
+        },
+        "param": {
+            "parameters": [{
+                "name": "redirectToPage",
+                "type": "string",
+                "value": "/dashboard"
+            }, {
+                "name": "status",
+                "type": "number",
+                "value": 1
+            }, {
+                "name": "user",
+                "type": "object"
+            }]
+        },
+        "method": "post"
+    },{
+        "message": "Login failed - Invalid user",
+        "status": "200",
+        "url": "/api/authenticate",
+        "data": {
+            "user": "sabaridev@exeterpm.com",
+            "pass": "1234"
+        },
+        "expectedOutput": "",
+        "method": "post"
+    }
+]

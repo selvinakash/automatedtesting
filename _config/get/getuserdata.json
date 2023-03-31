@@ -1,0 +1,93 @@
+[{
+        "message": "Return user data when user with have login credentials",
+        "param": {
+            "parameters": [{
+                    "name": "name",
+                    "type": "object"
+                }, {
+                    "name": "email",
+                    "type": "string"
+                }, {
+                    "name": "roles",
+                    "type": "array"
+                }
+            ]
+        },
+        "status": "200",
+        "url": "/api/getuserdata?apiKey={APIKEY}&customer=bmj",
+        "method": "get"
+    },
+    {
+        "message": "Return user data when user without have login credentials",
+        "status": "401",
+        "url": "/api/getuserdata",
+        "expectedOutput": {
+            "status": {
+                "code": 401,
+                "message": "Not authorized. You have not provided credentials to access the requested resource"
+            }
+        },
+        "method": "get"
+    },
+    {
+        "message": "Return user data when user with have login credentials for production role- bmj customer",
+        "param": {
+            "parameters": [{
+                    "name": "name",
+                    "type": "object"
+                }, {
+                    "name": "email",
+                    "type": "string"
+                }, {
+                    "name": "roles",
+                    "type": "array"
+                },
+                {
+                    "name": "roles",
+                    "element": "role-type",
+                    "type": "string"
+                }
+            ]
+        },
+        "status": "200",
+        "url": "/api/getuserdata?apiKey={APIKEY}&customer=bmj&roleType=production",
+        "method": "get"
+    }, {
+        "message": "Return user data when user with have login credentials for production role- all customer",
+        "param": {
+            "parameters": [{
+                    "name": "name",
+                    "type": "object"
+                }, {
+                    "name": "email",
+                    "type": "string"
+                }, {
+                    "name": "roles",
+                    "type": "array"
+                }
+            ]
+        },
+        "status": "200",
+        "url": "/api/getuserdata?apiKey={APIKEY}&customer=all&roleType=production",
+        "method": "get"
+    },
+    {
+        "message": "Return user data when user with have login credentials for one user",
+        "param": {
+            "parameters": [{
+                "name": "name",
+                "type": "object"
+            }, {
+                "name": "email",
+                "type": "string",
+                "value": "Abinaya.g@exeterpm.com"
+            }, {
+                "name": "roles",
+                "type": "array"
+            }]
+        },
+        "status": "200",
+        "url": "/api/getuserdata?apiKey={APIKEY}&searchUserMail=Abinaya.g@exeterpm.com",
+        "method": "get"
+    }
+]

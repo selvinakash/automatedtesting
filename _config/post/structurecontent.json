@@ -1,0 +1,530 @@
+[{
+    "message": "Return error if we not passed exact parametes like customer, project and doi",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "project": "ijgc",
+        "doi": "ijgc-2018-000124"
+    },
+    "expectedOutput": "\nhttps://testing.kriyadocs.com/resources/integration//ijgc/ijgc-2018-000124/resources/file_list.xml?method=server\n Organising manuscript...Structuring content completed\n<response><status></status><content></content></response>",
+    "method": "post"
+}, {
+    "message": "structuring the content - JMM-D-20-00182",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "mbs",
+        "project": "jmm",
+        "doi": "JMM-D-20-00182"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/JMM-D-20-00182.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/JMM-D-20-00182.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - ACMI-D-18-00051",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "mbs",
+        "project": "acmi",
+        "doi": "ACMI-D-18-00051"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/ACMI-D-18-00051.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/ACMI-D-18-00051.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - IJSEM-D-20-00349",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "mbs",
+        "project": "ijsem",
+        "doi": "IJSEM-D-20-00349"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/IJSEM-D-20-00349.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/IJSEM-D-20-00349.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - BJJ-2019-1060.R3",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bjp",
+        "project": "bjj",
+        "doi": "BJJ-2019-1060.R3",
+        "refProcessType": "newMethod"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/BJJ-2019-1060.R3.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/BJJ-2019-1060.R3.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - ASU940246",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "sage",
+        "project": "asu",
+        "doi": "ASU940246"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/ASU940246.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/ASU940246.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - 0486613420948968",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "sage",
+        "project": "rrpe",
+        "doi": "0486613420948968"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/0486613420948968.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/0486613420948968.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - oemed-2019-105880",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "oemed",
+        "doi": "oemed-2019-105880"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/oemed-2019-105880.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/oemed-2019-105880.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - annrheumdis-2018-214865",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "annrheumdis",
+        "doi": "annrheumdis-2018-214865"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/annrheumdis-2018-214865.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/annrheumdis-2018-214865.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - esmoopen-2019-000498",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "esmoopen",
+        "doi": "esmoopen-2019-000498"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/esmoopen-2019-000498.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/esmoopen-2019-000498.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjspcare-2019-001766",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjspcare",
+        "doi": "bmjspcare-2019-001766"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjspcare-2019-001766.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjspcare-2019-001766.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjgast-2019-000315",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjgast",
+        "doi": "bmjgast-2019-000315"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjgast-2019-000315.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjgast-2019-000315.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjoq-2018-000571",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjoq",
+        "doi": "bmjoq-2018-000571"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjoq-2018-000571.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjoq-2018-000571.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bjsports-2018-100015",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bjsports",
+        "doi": "bjsports-2018-100015"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bjsports-2018-100015.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bjsports-2018-100015.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjdrc-2019-000659",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjdrc",
+        "doi": "bmjdrc-2019-000659"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjdrc-2019-000659.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjdrc-2019-000659.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjdrc-2019-000675",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjdrc",
+        "doi": "bmjdrc-2019-000675"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjdrc-2019-000675.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjdrc-2019-000675.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjdrc-2019-000696",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjdrc",
+        "doi": "bmjdrc-2019-000696"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjdrc-2019-000696.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjdrc-2019-000696.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjgh-2018-001312",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjgh",
+        "doi": "bmjgh-2018-001312"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjgh-2018-001312.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjgh-2018-001312.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjgh-2018-001386",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjgh",
+        "doi": "bmjgh-2018-001386"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjgh-2018-001386.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjgh-2018-001386.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjoq-2018-000571",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjoq",
+        "doi": "bmjoq-2018-000571"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjoq-2018-000571.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjoq-2018-000571.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bmjpo-2019-000493",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "bmjpo",
+        "doi": "bmjpo-2019-000493"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bmjpo-2019-000493.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bmjpo-2019-000493.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - esmoopen-2019-000536",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "esmoopen",
+        "doi": "esmoopen-2019-000536"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/esmoopen-2019-000536.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/esmoopen-2019-000536.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - flgastro-2019-101241",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "flgastro",
+        "doi": "flgastro-2019-101241"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/flgastro-2019-101241.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/flgastro-2019-101241.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - injuryprev-2019-043247",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "injuryprev",
+        "doi": "injuryprev-2019-043247"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/injuryprev-2019-043247.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/injuryprev-2019-043247.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - jech-2018-211937",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "jech",
+        "doi": "jech-2018-211937"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/jech-2018-211937.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/jech-2018-211937.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - jclinpath-2018-205612",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "jclinpath",
+        "doi": "jclinpath-2018-205612"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/jclinpath-2018-205612.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/jclinpath-2018-205612.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - jmedgenet-2018-105782",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "jmedgenet",
+        "doi": "jmedgenet-2018-105782"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/jmedgenet-2018-105782.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/jmedgenet-2018-105782.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - jramc-2019-001278",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "jramc",
+        "doi": "jramc-2019-001278"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/jramc-2019-001278.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/jramc-2019-001278.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - medhum-2018-011521",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "medhum",
+        "doi": "medhum-2018-011521",
+        "refProcessType": "newMethod"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/medhum-2018-011521.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/medhum-2018-011521.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - openhrt-2018-000977",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "openhrt",
+        "doi": "openhrt-2018-000977"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/openhrt-2018-000977.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/openhrt-2018-000977.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - postgradmedj-2019-136390",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "postgradmedj",
+        "doi": "postgradmedj-2019-136390"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/postgradmedj-2019-136390.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/postgradmedj-2019-136390.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - postgradmedj-2019-136499",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "postgradmedj",
+        "doi": "postgradmedj-2019-136499"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/postgradmedj-2019-136499.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/postgradmedj-2019-136499.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - postgradmedj-2019-136865",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "postgradmedj",
+        "doi": "postgradmedj-2019-136865"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/postgradmedj-2019-136865.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/postgradmedj-2019-136865.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - practneurol-2018-001921",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "practneurol",
+        "doi": "practneurol-2018-001921"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/practneurol-2018-001921.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/practneurol-2018-001921.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - practneurol-2019-002287",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "practneurol",
+        "doi": "practneurol-2019-002287"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/practneurol-2019-002287.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/practneurol-2019-002287.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - practneurol-2019-002339",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "practneurol",
+        "doi": "practneurol-2019-002339"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/practneurol-2019-002339.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/practneurol-2019-002339.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - sextrans-2019-054093",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "sextrans",
+        "doi": "sextrans-2019-054093"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/sextrans-2019-054093.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/sextrans-2019-054093.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - sextrans-2019-054163",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "sextrans",
+        "doi": "sextrans-2019-054163"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/sextrans-2019-054163.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/sextrans-2019-054163.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - thoraxjnl-2018-212340",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "thoraxjnl",
+        "doi": "thoraxjnl-2018-212340"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/thoraxjnl-2018-212340.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/thoraxjnl-2018-212340.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - tobaccocontrol-2019-054958",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "tobaccocontrol",
+        "doi": "tobaccocontrol-2019-054958"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/tobaccocontrol-2019-054958.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/tobaccocontrol-2019-054958.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - tobaccocontrol-2019-055040",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "tobaccocontrol",
+        "doi": "tobaccocontrol-2019-055040"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/tobaccocontrol-2019-055040.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/tobaccocontrol-2019-055040.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - tobaccocontrol-2019-055145",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bmj",
+        "project": "tobaccocontrol",
+        "doi": "tobaccocontrol-2019-055145"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/tobaccocontrol-2019-055145.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/tobaccocontrol-2019-055145.html",
+    "method": "post"
+}, {
+    "message": "structuring the content - bjro.20180032",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "bir",
+        "project": "bjro",
+        "doi": "bjro.20180032"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/bjro.20180032.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/bjro.20180032.html",
+    "method": "post"
+},{
+    "message": "structuring the content - 71946",
+    "status": "200",
+    "url": "/api/structurecontent?apiKey={APIKEY}",
+    "data": {
+        "customer": "elife",
+        "project": "elife",
+        "doi": "71946"
+    },
+    "fileLocation": "/_testFiles/expectedoutputfiles/structurecontent/expected/71946.html",
+    "outputfileLocation": "/_testFiles/expectedoutputfiles/structurecontent/actual/71946.html",
+    "method": "post"
+}
+]
